@@ -1,0 +1,65 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.content {
+  @include display(100%, auto, space-between, start, column);
+  .inputBox {
+    margin: 5px 0;
+    @include display(100%, 45px, space-between, start, column);
+    position: relative;
+    .input,
+    select {
+      @include input(100%);
+    }
+    .error {
+      display: none;
+      @include position(12.5px, $right: 12.5px);
+    }
+  }
+  .inputRowBox {
+    @include display(100%, 45px, space-between, center);
+    .inputBox {
+      width: calc(50% - 5px);
+    }
+  }
+  .inputRowBox2 {
+    @include display(100%, 45px, space-between, center);
+    margin: 5px 0;
+    .inputBox {
+      width: calc(33.3% - 5px);
+    }
+  }
+  .checkBox {
+    margin: 5px 0;
+    @include display(auto, 40px, start);
+    cursor: pointer;
+    input {
+      margin-right: 10px;
+    }
+  }
+  .accept {
+    @include display(100%, auto, end);
+    margin: 10px 0;
+  }
+  .payment {
+    @include display(40%, auto, start, start, column);
+    padding-bottom: 10px;
+    ul {
+      list-style: none;
+      @include display(auto, auto, start, start, column);
+      li {
+        width: 100%;
+        @include font($font1, calc($fontSize2 * 0.8), $color4);
+        border-bottom: 1px solid $color4;
+      }
+      button {
+        margin: 5px 0;
+        @include customButton();
+        font-size: $fontSize3;
+      }
+    }
+    .payNow {
+      @include display(100%, auto, end, center);
+    }
+  }
+}

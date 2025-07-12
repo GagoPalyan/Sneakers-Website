@@ -1,0 +1,27 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.footer {
+  @include absolute(auto);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  @include font($font2, $fontSize2, $color4);
+  .security {
+    @include display(auto, auto, start);
+    a {
+      margin-right: 15px;
+    }
+  }
+}
+
+@media (width <= 768px) {
+  .footer {
+    flex-direction: column;
+    .security {
+      @include display(auto, auto, space-evenly);
+      a {
+        margin: 0 5px;
+      }
+    }
+  }
+}

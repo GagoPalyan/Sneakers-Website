@@ -1,0 +1,15 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.button {
+  @include display(150px, 35px, start, center);
+  @include font($font1, $fontSize2, $weight: 900);
+  @media (hover: hover) {
+    &:hover {
+      background-color: $color2;
+    }
+  }
+  svg {
+    margin: 0 10px;
+  }
+}

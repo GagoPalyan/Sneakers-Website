@@ -1,0 +1,101 @@
+.main {
+  width: 100%;
+  min-height: calc(100vh - 85px);
+  padding: var(--maxWidthPadding);
+  background-color: rgb(225, 225, 225);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 10px;
+}
+.main .titleBar {
+  width: 100%;
+  height: auto;
+  padding: 5px 10px;
+  display: flex;
+  background-color: rgb(225, 225, 225);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: white;
+}
+.main .titleBar .search {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.main .titleBar .search svg {
+  cursor: pointer;
+}
+.main .titleBar .search input {
+  width: 150px;
+  padding: 3px 12px;
+  border-radius: 20px;
+  cursor: default;
+  font-family: BebasNeue;
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.main .titleBar .search input:focus {
+  background-color: rgb(225, 225, 225);
+}
+.main .titleBar .button {
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+@media (hover: hover) {
+  .main .titleBar .button:hover {
+    color: rgb(150, 150, 150);
+  }
+}
+.main .content {
+  width: 100%;
+  height: auto;
+  padding: var(--maxWidthPadding);
+  display: flex;
+  background-color: rgb(225, 225, 225);
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 10px 0;
+  position: relative;
+}
+.main .content .products {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: calc(100% - 320px);
+}
+.main .content .more {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px 10px 5px 10px;
+  background-color: black;
+  font-family: BebasNeue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: white;
+  font-weight: 400;
+  text-align: start;
+  line-height: 30px;
+  margin-top: 5px;
+}/*# sourceMappingURL=ShopingPage.module.css.map */

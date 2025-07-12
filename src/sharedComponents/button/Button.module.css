@@ -1,0 +1,21 @@
+.button {
+  padding: 5px 10px 0 10px;
+  background-color: white;
+  border: 1px solid;
+  font-family: BebasNeue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+@media (hover: hover) {
+  .button:hover {
+    background-color: rgb(225, 225, 225);
+  }
+}
+
+@media (width <= 768px) {
+  .button {
+    padding: 2px 5px 0 5px;
+  }
+}/*# sourceMappingURL=Button.module.css.map */

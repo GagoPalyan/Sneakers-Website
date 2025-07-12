@@ -1,0 +1,21 @@
+.content .title {
+  font-family: BebasNeue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.content .info {
+  font-family: Agdasima;
+  font-size: clamp(0.875rem, 1.5vw, 1.2rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.content .link {
+  font-family: BebasNeue;
+  font-size: clamp(0.875rem, 1.5vw, 1.2rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}/*# sourceMappingURL=Review.module.css.map */

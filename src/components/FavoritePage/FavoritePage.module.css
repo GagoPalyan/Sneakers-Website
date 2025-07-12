@@ -1,0 +1,44 @@
+.main {
+  width: 100%;
+  min-height: calc(100vh - 85px);
+  padding: var(--maxWidthPadding);
+  background-color: rgb(225, 225, 225);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.main .title {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: BebasNeue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  background-color: white;
+}
+
+.empty {
+  width: 100%;
+  height: calc(100vh - 85px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: rgb(225, 225, 225);
+}
+.empty p {
+  font-family: BebasNeue;
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  text-align: center;
+}/*# sourceMappingURL=FavoritePage.module.css.map */

@@ -1,0 +1,55 @@
+.logInBox {
+  width: 320px;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 250px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  position: relative;
+}
+.logInBox .description {
+  font-family: BebasNeue;
+  font-size: calc(clamp(1rem, 2vw, 1.5rem) * 1.2);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.logInBox .email {
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.logInBox .inputBox {
+  margin: 5px 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.logInBox .inputBox .input {
+  width: 100%;
+  height: 45px;
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+}
+.logInBox .inputBox .error {
+  display: none;
+  position: absolute;
+  top: 12.5px;
+  left: auto;
+  right: 12.5px;
+}/*# sourceMappingURL=LogIn.module.css.map */

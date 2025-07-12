@@ -1,0 +1,47 @@
+.footer {
+  width: 100%;
+  height: auto;
+  padding: var(--maxWidthPadding);
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.footer .security {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.footer .security a {
+  margin-right: 15px;
+}
+
+@media (width <= 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer .security {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .footer .security a {
+    margin: 0 5px;
+  }
+}/*# sourceMappingURL=Footer.module.css.map */

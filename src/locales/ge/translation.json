@@ -1,0 +1,448 @@
+{
+  "header": {
+    "topBar": {
+      "contactUs": "Kontaktieren Sie uns",
+      "signIn": "Anmelden",
+      "logOut": "Abmelden"
+    },
+    "navBar": {
+      "men": "HERRN",
+      "women": "DAMEN",
+      "adidas": "ADIDAS",
+      "nike": "NIKE"
+    }
+  },
+  "footer": "©2024 KickZZZup, Inc. Alle Rechte vorbehalten",
+  "languageMenu": {
+    "title": "WÄHLEN SIE IHRE SPRACHE"
+  },
+  "home": {
+    "content1": {
+      "carousel1": {
+        "title": "Tritt uns bei",
+        "text": "Melde dich jetzt an und hol dir deine eigenen Sneaker",
+        "button": "Anmelden"
+      },
+      "carousel2": {
+        "title": "Adidas",
+        "text": "Unmöglich ist nichts",
+        "button": "Jetzt kaufen"
+      },
+      "carousel3": {
+        "title": "Nike",
+        "text": "Mach es einfach",
+        "button": "Jetzt kaufen"
+      }
+    },
+    "content2": {
+      "title": "Wähle Deine Seite",
+      "button": "Jetzt Einkaufen"
+    },
+    "content3": {
+      "text": {
+        "title1": "GROßES",
+        "title2": "GESCHENKE-",
+        "title3": "EVENT",
+        "about": "BIS ZU 50% RABATT AUF FAST ALLES"
+      },
+      "men": "HERREN SHOPPEN",
+      "women": "DAMEN SHOPPEN"
+    },
+    "content4": {
+      "title": "Bestseller"
+    }
+  },
+  "signIn": {
+    "step1": {
+      "description": "Gib deine Email ein, um beizutreten oder dich anzumelden.",
+
+      "about": "Erhalte kostenlosen Versand, Rabattgutscheine und exklusive Produkte für Mitglieder, wenn du bei KickZZZup bist.",
+      "placeholder": "E-Mail-Adresse*",
+      "rememberMe": "Angemeldet bleiben. Gilt für alle Optionen.",
+      "byContinue1": "Durch Fortfahren stimme ich KickZZZup zu",
+      "byContinue2": "und ",
+      "link1": "Datenschutzbestimmungen",
+      "link2": "Nutzungsbedingungen zu",
+      "button": "FORTFAHREN"
+    },
+    "signUp": {
+      "description": "Lassen Sie uns jetzt ein KickZZZup-Mitglied aus Ihnen machen.",
+      "namePlaceholder": "Vorname*",
+      "lastnamePlaceholder": "Nachname*",
+      "passwordPlaceholder": "Passwort*",
+      "checkBox1": "Ich bin 16 Jahre oder älter.*",
+      "checkBox2": {
+        "byContinue1": "Ich stimme KickZZZup zu ",
+        "byContinue2": " und ",
+        "link1": "Datenschutzbestimmungen",
+        "link2": "Nutzungsbedingungen zu"
+      },
+      "button": "REGISTRIEREN"
+    },
+    "logIn": {
+      "description": "Willkommen zurück.",
+      "button": "ANMELDEN",
+      "tryAgain": "Falsches Passwort. Versuche es erneut!"
+    }
+  },
+  "security": {
+    "privacyPolicy": {
+      "title": "KICKZZZUP DATENSCHUTZRICHTLINIE UND COOKIE-RICHTLINIE",
+      "about1": "Diese Datenschutzrichtlinie beschreibt die persönlichen Daten, die erfasst oder generiert (verarbeitet) werden, wenn Sie mit KickzzzUP über unsere Websites, digitalen Erlebnisse, mobile Anwendungen, Geschäfte, Veranstaltungen oder eines unserer anderen Produkte oder Dienstleistungen interagieren, die alle Teil der KickzzzUP-Plattform („Plattform“) sind. Sie erklärt auch, wie Ihre persönlichen Daten verwendet, geteilt und geschützt werden, welche Wahlmöglichkeiten Sie in Bezug auf Ihre persönlichen Daten haben und wie Sie uns kontaktieren können.",
+      "capture1": "WER ist verantwortlich für die Verarbeitung Ihrer persönlichen Daten?",
+      "list1": {
+        "1": "Die KickzzzUP-Einheit, die für die Verarbeitung Ihrer persönlichen Daten verantwortlich ist, hängt davon ab, wie Sie mit der KickzzzUP-Plattform interagieren und wo Sie sich weltweit befinden.",
+        "2": "Die relevante KickzzzUP-Einheit wird in dieser Datenschutzrichtlinie als „KickzzzUP“, „unser“, „wir“ oder „uns“ bezeichnet.",
+        "3": "Bitte überprüfen Sie unsere Liste der lokalen Einheiten für den Namen der verantwortlichen KickzzzUP-Einheit und die entsprechenden Kontaktdaten."
+      },
+      "about2": "WELCHE persönlichen Daten erfassen wir und WANN?",
+      "capture2": "Wir fragen Sie nach bestimmten persönlichen Daten, um Ihnen die von Ihnen angeforderten Produkte oder Dienstleistungen bereitzustellen, einschließlich:",
+      "list2": {
+        "1": "Kontaktdaten: Name, E-Mail, Telefonnummer, Versand- und Rechnungsadresse",
+        "2": "Anmelde- und Kontoinformationen: Benutzername, Passwort, eindeutige Benutzer-ID",
+        "3": "Persönliche Angaben: Geschlecht, Heimatstadt, Geburtsdatum, Kaufhistorie",
+        "4": "Zahlungs- oder Kreditkarteninformationen",
+        "5": "Bilder, Fotos und Videos",
+        "6": "Daten zu physischen Merkmalen: Gewicht, Größe, Körpermaße",
+        "7": "Fitnessaktivitätsdaten: Zeit, Dauer, Entfernung, Standort, Kalorienzahl, Tempo/Schritt",
+        "8": "Persönliche Vorlieben: Wunschliste, Marketing- und Cookie-Präferenzen"
+      },
+      "capture3": "Wir erfassen zusätzliche persönliche Daten für bestimmte Funktionen, einschließlich:",
+      "list3": {
+        "1": "Bewegungsdaten vom Beschleunigungssensor Ihres Geräts",
+        "2": "Fotos, Audio, Kontakte und Kalenderinformationen",
+        "3": "Sensordaten: Herzfrequenz und GPS-Standortdaten",
+        "4": "Soziale Netzwerkinformationen: Anmeldedaten und öffentliche Beitragsinformationen"
+      },
+      "capture4": "Automatisch erfasste Daten umfassen:",
+      "list4": {
+        "1": "Geräte-IDs und -typ, Anrufstatus, Netzwerkzugang, Speicherinformationen und Batteriestatus",
+        "2": "Verkehrsdaten: angesehene Produkte, Warenkorbabfragen, Anmeldestatus",
+        "3": "Cookies, IP-Adressen, Browserdaten, Web-Beacons und Interaktionen mit unserer Plattform"
+      },
+      "capture5": "KINDER",
+      "list5": {
+        "1": "Wir halten uns an lokale Gesetze und erlauben es Kindern nicht, sich auf unserer Plattform zu registrieren, wenn sie unter dem gesetzlichen Mindestalter des Landes wohnen, in dem sie sich befinden.",
+        "2": "Wir werden um die Zustimmung der Eltern bitten, wenn Kinder an KickzzzUP-Erlebnissen und -Veranstaltungen teilnehmen."
+      },
+      "capture6": "WERKZEUGE zur Verwaltung der gesammelten persönlichen Daten",
+      "list6": {
+        "1": "Wir informieren Sie oder holen Ihre Zustimmung für bestimmte Praktiken ein.",
+        "2": "Ihr Webbrowser oder die mobile Geräteplattform bietet möglicherweise Werkzeuge zur Verwaltung der Cookie-Nutzung oder des Standortzugriffs.",
+        "3": "Wir ermutigen Sie, sich mit diesen Werkzeugen vertraut zu machen."
+      },
+      "capture7": "WARUM und WIE verwenden wir Ihre persönlichen Daten?",
+      "list7": {
+        "1": "Um die angeforderten Produkte oder Dienstleistungen bereitzustellen.",
+        "2": "Um über unsere Produkte, Dienstleistungen, Veranstaltungen und Werbeaktionen zu kommunizieren.",
+        "3": "Um Marketingmitteilungen zu senden, vorbehaltlich Ihrer Zustimmung.",
+        "4": "Um Kommunikationen basierend auf Ihren Interaktionen zu personalisieren.",
+        "5": "Um unser Geschäft und unsere Dienstleistungen zu betreiben, zu verbessern und aufrechtzuerhalten.",
+        "6": "Um Rechte, Eigentum oder Sicherheit zu schützen.",
+        "7": "Für allgemeine Forschungs- und Analysezwecke."
+      },
+      "capture8": "Verwendung (Verarbeitung) von Trainingsinformationen",
+      "list8": {
+        "1": "KickzzzUP erfasst Daten über Ihre Fitnessaktivitäten und körperlichen Merkmale.",
+        "2": "Wir treffen angemessene Maßnahmen zum Schutz dieser sensiblen Daten und holen die Zustimmung ein, wo dies erforderlich ist."
+      },
+      "capture9": "Kontenverknüpfung",
+      "list9": {
+        "1": "Wenn Sie Ihr KickzzzUP-Konto mit einem Partnerkonto verknüpfen, holen wir Ihre Zustimmung ein.",
+        "2": "Wir verwenden persönliche Daten, um Ihre Erfahrung zu personalisieren und personalisierte Marketingkommunikationen zu senden."
+      }
+    },
+    "termsOfUse": {
+      "title": "NUTZUNGSBEDINGUNGEN",
+      "subtitle1": "RÜCKERSTATTUNGSINFORMATIONEN",
+      "capture1": "Rückerstattungen werden basierend auf der ursprünglichen Zahlungsweise ausgegeben. Wenn Sie per Banküberweisung bezahlt haben, müssen Sie diese Information dem Kundenservice mitteilen, wenn Sie die Rücksendung einleiten, damit wir das Geld direkt auf Ihr Konto zurückerstatten können. Praktische Informationen zur Rücksendung und zu Rückerstattungszeiträumen finden Sie hier.",
+      "subtitle2": "BEDINGUNGEN FÜR VORBESTELLTE PRODUKTE",
+      "capture2": "Die Vorbestellung ist der Vorgang, durch den Sie ein Produkt vor dem geplanten Verkaufsstart bestellen können. Aufgrund der Natur der Vorbestellung gelten für vorbestellte Produkte die folgenden spezifischen Bedingungen:",
+      "list1": {
+        "title1": "Lieferung.",
+        "text1": "Vorbestellte Produkte sollen vor dem Verkaufsstartdatum geliefert werden, sofern wir Ihre Zahlung mindestens 3 Arbeitstage vor diesem Datum erhalten haben. Die konkreten Lieferzeiten hängen davon ab, wann das Produkt in unserem Lager verfügbar ist. Standardlieferzeiten gelten ab dem Moment, in dem das vorbestellte Produkt in unserem Lager verfügbar ist. Diese Informationen sind nur Schätzungen, die Zeitangaben sind nicht verbindlich.",
+        "title2": "Bezahlung.",
+        "text2": "Sofern Sie keine Zahlung bei oder nach Lieferung gewählt haben, gilt Folgendes: Ihre Zahlung wird abgebucht, sobald die Bestellung eingeht (oder, im Falle einer Banküberweisung, so bald wie möglich). Wir werden die Ausführung Ihrer Bestellung nicht beginnen, bevor wir die Zahlung erhalten haben. Für Banküberweisungen kann dies bedeuten, dass die Lieferung später erfolgt, als im obigen Punkt beschrieben.",
+        "title3": "Produktstartdatum.",
+        "text3": "Das geplante Verkaufsstartdatum (Produktstart) für Ihr vorbestelltes Produkt finden Sie auf der Produktbeschreibungsseite auf der Website."
+      },
+      "subtitle3": "EREIGNISSE AUSSERHALB UNSERER KONTROLLE",
+      "capture3": "Ein Ereignis außerhalb unserer Kontrolle bedeutet jede Handlung oder jedes Ereignis, das außerhalb unserer angemessenen Kontrolle liegt, einschließlich und ohne Einschränkung Streiks, Aussperrungen oder andere Arbeitskampfmaßnahmen Dritter, zivile Unruhen, Aufruhr, Invasion, Terroranschlag oder die Androhung eines Terroranschlags, Krieg (unabhängig davon, ob er erklärt ist oder nicht) oder die Bedrohung oder Vorbereitung eines Krieges, Feuer, Explosion, Sturm, Überschwemmung, Erdbeben, Setzungsrisse, Epidemie, Pandemie oder andere Naturkatastrophen oder Ausfall öffentlicher oder privater Telekommunikationsnetze.",
+      "capture4": "Wenn ein Ereignis außerhalb unserer Kontrolle stattfindet, das die Erfüllung unserer Verpflichtungen gemäß diesen Verkaufsbedingungen beeinträchtigt:",
+      "list2": {
+        "text1": "Wir werden Sie so schnell wie möglich kontaktieren, um Sie zu benachrichtigen; und",
+        "text2": "Unsere Verpflichtungen gemäß diesen allgemeinen Bedingungen werden ausgesetzt, und die Zeit zur Erfüllung unserer Verpflichtungen wird für die Dauer des Ereignisses außerhalb unserer Kontrolle verlängert."
+      },
+      "capture5": "Wenn das Ereignis außerhalb unserer Kontrolle unsere Lieferung eines Produkts an Sie betrifft, werden wir nach dem Ende des Ereignisses einen neuen Liefertermin mit Ihnen vereinbaren. Sie können den Vertrag kündigen, wenn ein Ereignis außerhalb unserer Kontrolle eintritt und Sie nicht mehr wünschen, dass wir die Produkte bereitstellen. Bitte beachten Sie Ihre Kündigungsrechte unter Stornierung oben.",
+      "subtitle4": "WEITERE WICHTIGE BEDINGUNGEN",
+      "about4": "KOSTENLOSE LIEFERUNG",
+      "capture6": "Wenn Sie einen Einkauf tätigen, der den Schwellenwert für Ihr Lieferland überschreitet, erhalten Sie eine KOSTENLOSE „Standardlieferung“ oder die Option eines ermäßigten „Expressversands“. Andere Bedingungen können Sie ebenfalls für den kostenlosen Versand qualifizieren. Siehe den Hilfebereich der Website für Schwellenwerte und die entsprechenden ermäßigten Versandtarife.",
+      "subtitle5": "PERSONALISIERUNG VON ARTIKELN",
+      "about5": "Personalisierungsbedingungen",
+      "capture7": "Für die meisten personalisierten (KickzzzupiD) Artikel können Sie eine Kombination aus Buchstaben, Leerzeichen und Zahlen angeben, um eine „ID“ zu erstellen – eine persönliche Nachricht, die auf Ihrer Kreation erscheint. Wir behalten uns das Recht vor, nach eigenem Ermessen eine ID abzulehnen, z. B. wenn sie ein Markenrecht eines Dritten verletzt, Namen von Sportmannschaften, Athleten oder Prominenten enthält, zu deren Nutzung Sie (oder Kickzzzup) nicht berechtigt sind, oder weil sie Material enthält, das wir als unangemessen betrachten. Wenn wir Ihre ID ablehnen, werden Sie so schnell wie möglich per E-Mail benachrichtigt.",
+      "about6": "Verbraucherbestätigungen im Zusammenhang mit Personalisierungen",
+      "list3": {
+        "text1": "Sowohl das Design des Artikels (die Farbkombination usw.) als auch die Personalisierung werden von Ihnen erstellt.",
+        "text2": "Wenn jemand anderes das Design oder die Personalisierung erstellt hat, garantieren Sie, dass Sie zur Nutzung berechtigt sind.",
+        "text3": "Obwohl wir Ihre Personalisierung oder Ihr Design ablehnen können, sind Sie dafür verantwortlich, und wir sind nicht verpflichtet, Ihre Gestaltung oder Personalisierung zu überprüfen oder abzulehnen.",
+        "text4": "Ihr Design und Ihre Personalisierung qualifizieren sich als „Benutzerinhalt“ gemäß Artikel 2 der Nutzungsbedingungen."
+      },
+      "subtitle6": "RÜCKSENDUNGEN UND STORNIERUNGEN",
+      "about7": "Bestellung vor Lieferung stornieren",
+      "capture8": "Sie können jede Bestellung kostenlos und ohne Angabe von Gründen stornieren, sofern sie noch nicht versandt wurde. Überprüfen Sie den Status, indem Sie den Link 'Bestellstatus' oben rechts auf der Website aufrufen. Wenn der Bestellstatus „Ausstehend“ oder „In Bearbeitung“ ist, können Sie die Bestellung stornieren, indem Sie sich an unser Callcenter wenden. Wenn erfolgreich, erhalten Sie eine E-Mail zur Bestätigung der Stornierung.",
+      "about8": "Hinweis:",
+      "capture9": "Personalisierte (KickzzzupiD) Bestellungen können vor dem Versand nicht storniert werden, da die Produktion sofort nach der Bestellung beginnt.",
+      "about9": "Bestellungen nach Lieferung zurücksenden – Defekte Produkte",
+      "capture10": "Wenn Produkte defekt sind oder nicht Ihrer Bestellung entsprechen, sind Sie berechtigt, sie zurückzusenden. Wenn dies gerechtfertigt ist, erstatten wir den Kaufpreis und die Versandkosten. Siehe den Hilfebereich für Rücksendeanweisungen.",
+      "capture11": "Nach niederländischem und EU-Recht haften wir für jeden Mangel an Übereinstimmung eines Produkts, der innerhalb von zwei Jahren nach Lieferung auftritt. Dies schränkt Ihre gesetzlichen Rechte nicht ein.",
+      "about10": "Ihr Widerrufsrecht",
+      "capture12": "Wenn Sie mit einem Produkt unzufrieden sind, können Sie Ihr Widerrufsrecht innerhalb von 30 Kalendertagen nach Lieferung ausüben. Bei Bestellungen mit mehreren Artikeln, die separat geliefert werden, können Sie dieses Recht innerhalb von 30 Tagen nach Lieferung des letzten Artikels ausüben. Sie sind dafür verantwortlich, die Produkte unbeschädigt, vollständig und unbenutzt zurückzugeben, außer für die Bewertung. Siehe den Hilfebereich für Widerrufsverfahren und -formular.",
+      "capture13": "Sobald Sie uns über Ihren Widerruf benachrichtigt haben, erstatten wir Ihre Zahlungen, einschließlich der Versandkosten (mit Ausnahme zusätzlicher Versandoptionen), innerhalb von 30 Tagen nach Erhalt des zurückgesandten Produkts.",
+      "subtitle7": "WEITERE WICHTIGE BEDINGUNGEN",
+      "capture14": "Wir können unsere Rechte und Verpflichtungen aus einem Vertrag an eine andere Organisation übertragen. Sie können Ihre Rechte oder Verpflichtungen nur mit unserer schriftlichen Zustimmung übertragen.",
+      "capture15": "Wir arbeiten für internationale Verkäufe und Lieferungen in bestimmten Ländern mit der US Direct E-Commerce Limited (eShopWorld) zusammen. In diesen Fällen gelten die Kauf- und Lieferbedingungen von eShopWorld.",
+      "subtitle8": "WAHL DES RECHTS / GERICHTSSTAND",
+      "capture16": "Diese Verkaufsbedingungen unterliegen dem niederländischen Recht. Alle Streitigkeiten, Ansprüche und Verfahren werden vor den zuständigen Gerichten von Amsterdam, Niederlande, entschieden.",
+      "capture17": "Wenn Sie eine Beschwerde haben, kontaktieren Sie uns über unsere Kontaktseite. Alternativ können Sie die Online-Streitbeilegungsplattform (ODR) nutzen, die unter "
+    },
+    "cookiePolicy": {
+      "title": "Cookie-Richtlinie für Kickzzzup",
+      "text1": "Diese Cookie-Richtlinie erklärt, wie Kickzzzup ('wir', 'unser', 'uns') Cookies und ähnliche Technologien auf unserer Website kickzzzup.com ('Website') verwendet. Durch die Nutzung unserer Website stimmen Sie der Verwendung von Cookies gemäß dieser Richtlinie zu.",
+      "caption1": "1. Was sind Cookies?",
+      "text2": "Cookies sind kleine Textdateien, die auf Ihrem Gerät abgelegt werden, wenn Sie eine Website besuchen. Diese Dateien helfen der Website, Ihre Aktionen und Präferenzen über einen Zeitraum hinweg zu speichern, sodass eine personalisierte Erfahrung möglich wird und die Funktionalität der Website verbessert wird.",
+      "caption2": "2. Arten von Cookies, die wir verwenden",
+      "text3": "Wir verwenden die folgenden Arten von Cookies auf unserer Website:",
+      "text4": "Erforderliche Cookies: Diese Cookies sind für den Betrieb unserer Website notwendig. Sie ermöglichen grundlegende Funktionen wie Sicherheit, Netzwerkverwaltung und Zugänglichkeit.",
+      "text5": "Leistungs-Cookies: Diese Cookies sammeln Informationen darüber, wie Besucher unsere Website nutzen, z. B. welche Seiten am häufigsten besucht werden. Diese Cookies helfen uns, die Leistung der Website zu verbessern, indem sie den Datenverkehr und das Benutzerverhalten analysieren.",
+      "text6": "Funktions-Cookies: Diese Cookies ermöglichen es unserer Website, sich an Ihre Entscheidungen zu erinnern (wie z. B. Sprachpräferenzen oder Anmeldedaten) und verbesserte, personalisierte Funktionen bereitzustellen.",
+      "text7": "Targeting/Advertising-Cookies: Diese Cookies werden verwendet, um Ihnen relevante Werbung anzuzeigen. Sie werden auch verwendet, um die Effektivität unserer Werbekampagnen zu verfolgen.",
+      "text8": "Cookies von Dritten: Diese Cookies werden von Drittanbieterdiensten wie sozialen Plattformen (z. B. Facebook, Instagram) oder Werbenetzwerken gesetzt. Diese Cookies können Ihr Surfverhalten auf mehreren Websites verfolgen.",
+      "caption3": "3. Wie wir Cookies verwenden",
+      "text9": "Wir verwenden Cookies für die folgenden Zwecke:",
+      "text10": "Um die Funktionalität unserer Website zu verbessern und das Benutzererlebnis zu optimieren.",
+      "text11": "Um den Website-Verkehr und das Benutzerverhalten zu analysieren, um unsere Website zu optimieren.",
+      "text12": "Um personalisierte Inhalte und Werbung basierend auf Ihren Interessen und Vorlieben bereitzustellen.",
+      "text13": "Um sich an Ihre Präferenzen und Anmeldeinformationen zu erinnern.",
+      "text14": "Um Social-Media-Funktionen wie Share-Buttons und interaktive Inhalte zu aktivieren.",
+      "caption4": "4. Verwaltung von Cookies",
+      "text15": "Sie haben die Möglichkeit, Cookies über die Einstellungen Ihres Browsers zu steuern. Die meisten Browser ermöglichen es Ihnen, Cookies zu blockieren oder zu löschen. Bitte beachten Sie jedoch, dass das Blockieren oder Löschen bestimmter Cookies die Funktionalität unserer Website beeinträchtigen kann.",
+      "text16": "Sie können Ihre Cookie-Präferenzen über die Einstellungen Ihres Browsers verwalten:",
+      "text17": "Google Chrome: Gehen Sie zu 'Einstellungen' > 'Datenschutz und Sicherheit' > 'Cookies und andere Websitedaten'.",
+      "text18": "Mozilla Firefox: Gehen Sie zu 'Optionen' > 'Datenschutz & Sicherheit' > 'Cookies und Websitedaten'.",
+      "text19": "Microsoft Edge: Gehen Sie zu 'Einstellungen' > 'Cookies und Websiteberechtigungen'.",
+      "text20": "Safari: Gehen Sie zu 'Einstellungen' > 'Datenschutz' > 'Cookies und Website-Daten'.",
+      "text21": "Zusätzlich können Sie Online-Tools wie die European Interactive Digital Advertising Alliance (EDAA) verwenden, um Ihre Präferenzen für Werbe-Cookies zu verwalten.",
+      "caption5": "5. Zustimmung",
+      "text22": "Durch die Nutzung unserer Website stimmen Sie der Verwendung von Cookies gemäß dieser Cookie-Richtlinie zu. Wenn Sie mit der Verwendung von Cookies nicht einverstanden sind, sollten Sie die Einstellungen Ihres Browsers anpassen oder die Nutzung unserer Website unterlassen.",
+      "caption6": "6. Änderungen dieser Cookie-Richtlinie",
+      "text23": "Wir können unsere Cookie-Richtlinie von Zeit zu Zeit aktualisieren, um Änderungen in unseren Praktiken oder aus anderen operativen, rechtlichen oder regulatorischen Gründen widerzuspiegeln. Alle Aktualisierungen werden auf dieser Seite veröffentlicht, und das Datum der letzten Überarbeitung wird oben auf der Seite angezeigt.",
+      "caption7": "7. Kontaktieren Sie uns",
+      "text24": "Wenn Sie Fragen oder Bedenken bezüglich unserer Verwendung von Cookies oder dieser Cookie-Richtlinie haben, wenden Sie sich bitte an:",
+      "text25": "Kickzzzup Kundenservice",
+      "text26": "E-Mail: support@kickzzzup.com"
+    },
+    "exchangePolicy": {
+      "title": "Rückgabe- und Umtauschrichtlinie",
+      "about": "Bei Kickzzzup möchten wir, dass Sie mit Ihrem Kauf vollkommen zufrieden sind. Wenn Sie nicht vollständig zufrieden sind, bieten wir Ihnen eine unkomplizierte Rückgabe- und Umtauschrichtlinie an:",
+      "caption1": "Rückgabefrist",
+      "text1": "Sie können Ihre Artikel innerhalb von 30 Tagen ab Erhalt für eine vollständige Rückerstattung oder einen Umtausch zurückgeben.",
+      "text2": "Um eine Rückgabe oder einen Umtausch einzuleiten, wenden Sie sich bitte an unser Kundenservice-Team unter returns@kickzzzup.com.",
+      "caption2": "Bedingungen für Rückgaben",
+      "text3": "Die Artikel müssen unbenutzt, ungetragen und im Originalzustand mit allen Etiketten und Verpackungen zurückgegeben werden.",
+      "text4": "Schuhe: Wir empfehlen, Ihre Schuhe drinnen anzuprobieren, um Schäden an den Sohlen oder Abnutzungsspuren zu vermeiden. Jegliche Gebrauchsspuren können dazu führen, dass Ihre Rückgabe nicht akzeptiert wird.",
+      "text5": "Nicht rückgabefähige Artikel: Artikel, die als 'Final Sale' gekennzeichnet sind oder während Aktionszeiträumen gekauft wurden, können nicht für Rückgabe oder Umtausch in Frage kommen. Dies wird beim Checkout deutlich angezeigt.",
+      "caption3": "Rückgabeprozess",
+      "text6": "Um einen Artikel zurückzugeben, wenden Sie sich bitte an unseren Kundenservice, um eine RMA-Nummer (Rücksendegenehmigung) und die Rücksendeadresse zu erhalten.",
+      "text7": "Der Kunde trägt die Rücksendekosten, es sei denn, der Artikel ist fehlerhaft oder falsch.",
+      "text8": "Wir empfehlen, eine Versandmethode mit Sendungsverfolgung zu verwenden, da wir keine Verantwortung für verlorene Rücksendepakete übernehmen.",
+      "caption4": "Rückerstattungen",
+      "text9": "Sobald wir den zurückgesendeten Artikel erhalten haben, prüfen wir ihn und bearbeiten Ihre Rückerstattung innerhalb von 7 Werktagen.",
+      "text10": "Rückerstattungen erfolgen auf die ursprüngliche Zahlungsmethode. Bitte beachten Sie, dass Versandkosten nicht erstattet werden, es sei denn, der Artikel war fehlerhaft oder falsch.",
+      "caption5": "Umtausch",
+      "text11": "Wenn Sie eine andere Größe oder einen anderen Stil benötigen, können Sie Ihren Artikel innerhalb von 30 Tagen nach dem Kauf umtauschen.",
+      "text12": "Wenn der Artikel, den Sie umtauschen möchten, nicht mehr auf Lager ist, bieten wir Ihnen eine Rückerstattung oder einen Guthabenbetrag für den Wert des Artikels an.",
+      "caption6": "Beschädigte oder fehlerhafte Artikel",
+      "text13": "Wenn Sie einen beschädigten oder fehlerhaften Artikel erhalten, kontaktieren Sie uns bitte umgehend unter returns@kickzzzup.com mit Fotos der Beschädigungen. Wir stellen Ihnen einen Ersatz oder eine vollständige Rückerstattung zur Verfügung."
+    },
+    "deliveryPolicy": {
+      "title": "Lieferpolitik",
+      "about": "Bei Kickzzzup bemühen wir uns, unseren Kunden ein reibungsloses Einkaufserlebnis zu bieten, einschließlich schneller und zuverlässiger Lieferung. Nachfolgend finden Sie unsere Lieferpolitik:",
+      "caption1": "Lieferzeit",
+      "text1": "Bestellungen werden innerhalb von 1 bis 3 Werktagen nach Zahlungsbestätigung bearbeitet und versendet.",
+      "text2": "Die Lieferzeit hängt von Ihrem Standort und der gewählten Versandmethode ab. In der Regel dauert es zwischen 3 und 10 Werktagen, bis Sie Ihre Bestellung erhalten.",
+      "text3": "Internationale Lieferungen können je nach Zielort bis zu 15 Werktage dauern.",
+      "caption2": "Versandkosten",
+      "text4": "Inlandsversand: Wir bieten kostenlosen Versand für Bestellungen über 50 $. Für Bestellungen unter 50 $ beträgt die Standardversandgebühr 5,99 $.",
+      "text5": "Internationaler Versand: Die Versandkosten für internationale Bestellungen werden basierend auf dem Zielland und dem Gewicht der Bestellung berechnet. Die genauen Versandkosten werden Ihnen beim Checkout mitgeteilt.",
+      "caption3": "Versandmethoden",
+      "text6": "Wir nutzen vertrauenswürdige Versanddienstleister wie FedEx, UPS und DHL für alle Lieferungen.",
+      "text7": "Sie erhalten eine Sendungsverfolgungsnummer, sobald Ihre Bestellung versandt wurde, sodass Sie Ihr Paket online verfolgen können.",
+      "caption4": "Versandbeschränkungen",
+      "text8": "Derzeit liefern wir in die meisten Länder weltweit, aber beachten Sie bitte, dass in bestimmten Ländern Einschränkungen oder zusätzliche Zollgebühren anfallen können.",
+      "caption5": "Nicht zugestellte Pakete",
+      "text9": "Wenn Ihr Paket aufgrund falscher Adressangaben oder weil es nicht abgeholt wurde, nicht zugestellt werden kann, kontaktieren Sie bitte unser Support-Team innerhalb von 30 Tagen, um Hilfe zu erhalten.",
+      "text10": "Wir übernehmen keine Verantwortung für verlorene oder verspätete Pakete, wenn die angegebene Adresse falsch oder unvollständig ist."
+    },
+    "termsOfSale": {
+      "title": "Verkaufsbedingungen",
+      "about": "Diese Verkaufsbedingungen ('Bedingungen') regeln den Verkauf von Produkten ('Produkte') über die Website kickzzzup.com ('Website'). Mit der Aufgabe einer Bestellung bei uns erklären Sie sich mit diesen Bedingungen einverstanden. Bitte lesen Sie sie sorgfältig durch, bevor Sie einen Kauf tätigen.",
+      "caption1": "Bestellungen und Annahme",
+      "text1": "Bestellprozess: Durch die Aufgabe einer Bestellung auf unserer Website geben Sie ein Angebot zum Kauf der ausgewählten Produkte ab. Sobald Ihre Bestellung aufgegeben wurde, erhalten Sie eine Bestellbestätigungs-E-Mail mit den Details der gekauften Produkte.",
+      "text2": "Bestellannahme: Ein Vertrag zwischen Ihnen und Kickzzzup kommt zustande, wenn wir Ihre Bestellung durch den Versand der Produkte annehmen. Wir behalten uns das Recht vor, eine Bestellung aus Gründen wie Produktverfügbarkeit, Preisfehler, Produktbeschreibung oder Verdacht auf betrügerische Aktivitäten abzulehnen oder zu stornieren.",
+      "caption2": "Produktverfügbarkeit",
+      "text3": "Verfügbarkeit: Alle Bestellungen unterliegen der Verfügbarkeit. Sollte ein Produkt nicht vorrätig oder nicht verfügbar sein, werden wir Sie benachrichtigen und eine alternative Lösung wie Nachbestellung, Ersatz oder Rückerstattung anbieten.",
+      "text4": "Produktbeschreibungen: Wir bemühen uns, genaue und aktuelle Informationen zu den auf unserer Website aufgeführten Produkten bereitzustellen, einschließlich Beschreibungen, Preise und Bilder. Wir können jedoch nicht garantieren, dass alle Informationen fehlerfrei sind, und behalten uns das Recht vor, etwaige Ungenauigkeiten zu korrigieren.",
+      "caption3": "Preise und Zahlung",
+      "text5": "Preise: Alle Preise auf unserer Website werden in USD (oder lokaler Währung) angezeigt und enthalten die geltenden Steuern, sofern nicht anders angegeben. Versandkosten sind im Produktpreis nicht enthalten und werden an der Kasse hinzugefügt.",
+      "text6": "Zahlung: Wir akzeptieren Zahlungen per Kredit-/Debitkarte (Visa, MasterCard, American Express), PayPal und andere an der Kasse verfügbare Zahlungsmethoden. Zahlungen müssen zum Zeitpunkt des Kaufs vollständig erfolgen. Mit der Aufgabe einer Bestellung ermächtigen Sie uns, die von Ihnen ausgewählte Zahlungsmethode zu belasten.",
+      "text7": "Währung: Wenn Sie aus einem Land außerhalb der Vereinigten Staaten einkaufen, werden die Preise in Ihrer lokalen Währung angezeigt, die endgültige Transaktion wird jedoch in USD oder der für Ihre Zahlungsmethode geltenden Währung abgewickelt.",
+      "caption4": "Versand und Lieferung",
+      "text8": "Versandkosten: Die Versandkosten werden an der Kasse basierend auf Ihrer Versandadresse und der von Ihnen gewählten Liefermethode berechnet. Wir bieten nationalen und internationalen Versand mit verschiedenen Versandoptionen (Standard, Express, Eilversand) an.",
+      "text9": "Lieferzeiten: Geschätzte Lieferzeiten werden an der Kasse angegeben. Diese Zeiten sind jedoch Schätzungen und können je nach Standort, Versandmethode und anderen Faktoren variieren. Kickzzzup ist nicht verantwortlich für Verzögerungen, die durch den Versanddienstleister oder den Zoll verursacht werden.",
+      "text10": "Adressgenauigkeit: Es liegt in Ihrer Verantwortung, genaue und vollständige Versandinformationen bereitzustellen. Wir haften nicht für Verzögerungen oder Probleme, die durch ungenaue oder unvollständige Adressangaben verursacht werden.",
+      "caption5": "Rückgabe und Umtausch",
+      "text11": "Rückgaberecht: Wir bieten ein 30-tägiges Rückgaberecht für die meisten Produkte an. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie den Artikel für eine Rückerstattung oder einen Umtausch zurücksenden. Der Artikel muss unbenutzt, ungetragen und in seinem Originalzustand mit intakter Verpackung sein.",
+      "text12": "Rückgabeprozess: Um eine Rückgabe einzuleiten, wenden Sie sich bitte an unser Kundendienstteam unter returns@kickzzzup.com für Anweisungen. Kunden sind für die Rücksendekosten verantwortlich, es sei denn, das Produkt ist fehlerhaft oder es liegt ein Fehler unsererseits vor.",
+      "text13": "Rückerstattungen: Sobald wir den zurückgesendeten Artikel erhalten und geprüft haben, bearbeiten wir Ihre Rückerstattung innerhalb von 7 Werktagen. Rückerstattungen werden auf die ursprüngliche Zahlungsmethode ausgezahlt, abzüglich der ursprünglichen Versandkosten (es sei denn, das Produkt war fehlerhaft oder falsch).",
+      "text14": "Umtausch: Wenn Sie einen Artikel gegen eine andere Größe oder einen anderen Stil umtauschen möchten, können Sie dies innerhalb von 30 Tagen nach dem Kauf tun, vorbehaltlich der Produktverfügbarkeit. Wenn das Ersatzprodukt nicht verfügbar ist, erhalten Sie eine Rückerstattung.",
+      "caption6": "Produktgarantie",
+      "text15": "Garantie: Unsere Produkte können mit einer Herstellergarantie für einen bestimmten Zeitraum geliefert werden. Garantieinformationen werden mit dem Produkt bereitgestellt. Im Falle eines Mangels kontaktieren Sie uns bitte umgehend, und wir unterstützen Sie bei der Garantieabwicklung.",
+      "text16": "Ausschlüsse: Die Garantie deckt keine Schäden ab, die durch unsachgemäßen Gebrauch, Unfälle oder normalen Verschleiß verursacht wurden.",
+      "caption7": "Haftungsbeschränkung",
+      "text17": "Haftung: Kickzzzup haftet nicht für indirekte, beiläufige oder Folgeschäden, die aus der Nutzung oder der Unfähigkeit zur Nutzung der Produkte entstehen. Unsere Haftung ist auf den für die gekauften Produkte gezahlten Preis beschränkt.",
+      "caption8": "Datenschutz und Datenschutzbestimmungen",
+      "text18": "Datenschutz: Ihre Nutzung unserer Website und der Kauf von Produkten unterliegen unserer Datenschutzrichtlinie, die erklärt, wie wir Ihre persönlichen Daten erfassen, verwenden und schützen.",
+      "text19": "Datensicherheit: Wir nehmen die Datensicherheit ernst und halten uns an geltende Datenschutzgesetze, einschließlich der Datenschutz-Grundverordnung (DSGVO) für europäische Kunden.",
+      "caption9": "Änderungen dieser Bedingungen",
+      "text20": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern oder zu aktualisieren. Änderungen werden auf dieser Seite veröffentlicht, und die aktualisierten Bedingungen gelten für alle nachfolgenden Bestellungen, die auf der Website aufgegeben werden.",
+      "caption10": "Anwendbares Recht und Streitbeilegung",
+      "text21": "Anwendbares Recht: Diese Verkaufsbedingungen unterliegen den Gesetzen der Gerichtsbarkeit, in der Kickzzzup ansässig ist.",
+      "text22": "Streitbeilegung: Alle Streitigkeiten, die sich aus diesen Bedingungen oder Ihrem Kauf von Produkten ergeben, werden durch verbindliche Schiedsverfahren beigelegt, sofern nicht gesetzlich etwas anderes vorgeschrieben ist.",
+      "caption11": "Kontakt",
+      "text23": "Wenn Sie Fragen zu diesen Bedingungen oder Ihrer Bestellung haben, wenden Sie sich bitte an unser Kundendienstteam:",
+      "text24": "Kickzzzup Kundenservice",
+      "text25": "E-Mail: support@kickzzzup.com"
+    }
+  },
+  "404": {
+    "text": "404 Seite nicht gefunden",
+    "button": "Zur Startseite"
+  },
+  "sneakersPage": {
+    "about": {
+      "title1": "Größentabelle",
+      "title2": "Bewertungen"
+    },
+    "colors": "Alle Farben",
+    "filter": "Filtern & Sortieren",
+    "size": "Größe auswählen",
+    "addCart": "In den Warenkorb",
+    "removeCart": "Aus dem Warenkorb entfernen",
+    "addFavorite": "Zu Favoriten hinzufügen",
+    "removeFavorite": "Aus Favoriten entfernen",
+    "more": "Mehr"
+  },
+  "cartPage": {
+    "title": "Warenkorbseite",
+    "empty": {
+      "text": "Warenkorb ist leer",
+      "button": "Zurückgehen"
+    },
+    "price": "Gesamtpreis: $",
+    "button": "Zur Kasse"
+  },
+  "favoritePage": {
+    "title": "Lieblingsseite",
+    "empty": "Die Liste der bevorzugten Produkte ist leer",
+    "cartProduct": {
+      "more": "Weitere Details anzeigen",
+      "remove": "Artikel entfernen",
+      "size": "Größe "
+    }
+  },
+  "checkoutPage": {
+    "title": "Kasse",
+    "chapter": {
+      "deliveryOptions": {
+        "about": "Lieferoptionen",
+        "email": "E-Mail-Adresse*",
+        "name": "Name*",
+        "lastName": "Nachname*",
+        "country": "Wählen Sie Ihr Land",
+        "addreas": "Adresse*",
+        "city": "Stadt*",
+        "postalCode": "Postleitzahl*",
+        "phoneNumber": "Telefonnummer*",
+        "button": "Speichern & Fortfahren",
+        "link1": "Datenschutzrichtlinie,",
+        "link2": "Nutzungsbedingungen",
+        "link3": "Cookie-Richtlinie,",
+        "link4": "Rückgabe- und Umtauschrichtlinie,",
+        "link5": "Lieferbedingungen",
+        "link6": "Verkaufsbedingungen für Kickzzzup"
+      },
+      "payment": {
+        "about": "Zahlung",
+        "cardNumber": "Kartennummer",
+        "expiration": "Ablaufdatum",
+        "CVC": "CVC",
+        "name": "Name des Inhabers",
+        "nameInput": "vorname nachname",
+        "addreas": "Adresse:",
+        "postalCode": "Postleitzahl:",
+        "phoneNumber": "Telefon:",
+        "button": "Bearbeiten",
+        "payNow": "Jetzt bezahlen",
+        "sms": "Bitte geben Sie den Code aus der Nachricht ein, die an Ihr Telefon gesendet wurde."
+      },
+      "orderReview": {
+        "title": "Bestellung erfolgreich bearbeitet",
+        "subtitle": "Zahlung erfolgreich abgeschlossen",
+        "info1": "Vielen Dank für Ihren Einkauf! Ihre Bestellung wird bearbeitet. Die Lieferung erfolgt innerhalb von 7 Tagen an die von Ihnen angegebene Adresse.",
+        "info2": "Für weitere Informationen können Sie uns kontaktieren",
+        "link": "Kontaktseite",
+        "info3": "Unser Lieferteam wird sich in Kürze mit Ihnen in Verbindung setzen, um weitere Details zu besprechen."
+      }
+    },
+    "coupon": {
+      "title": "Bestellübersicht",
+      "list": {
+        "line1": " Artikel",
+        "line2": "Umsatzsteuer",
+        "line3": "Lieferung",
+        "line4": "Gesamt"
+      },
+      "promo": {
+        "placeholder": "Promo-Code",
+        "button1": "Aktivieren",
+        "button2": "Aktiviert"
+      }
+    }
+  },
+  "contactUsPage": {
+    "title": "Kontaktieren Sie uns",
+    "form": {
+      "title": "Chat",
+      "textarea": "Teilen Sie Ihre Gedanken",
+      "button": "Senden"
+    },
+    "info": {
+      "title": "Info",
+      "subtitle1": "Chat",
+      "about": {
+        "line1": "Können Sie Ihre Antwort immer noch nicht finden? Fragen Sie unseren Kundenservice.",
+        "line2": "Montag bis Sonntag, 5:00 bis 20:00 Uhr PT"
+      },
+      "text1": {
+        "line1": "Sie können unseren Chatbot um Hilfe bitten - er ist rund um die Uhr verfügbar.",
+        "line2": "Unser Kundenservice-Team hilft Ihnen ebenfalls gerne weiter.",
+        "line3": "Chat-Support durch Mitarbeiter: Montag bis Sonntag, 5:00 bis 20:00 Uhr PT"
+      },
+      "subtitle2": "Telefon",
+      "text2": {
+        "line1": "1-800-982-9337",
+        "line2": "Montag bis Sonntag, 5:00 bis 20:00 Uhr PT"
+      }
+    }
+  }
+}

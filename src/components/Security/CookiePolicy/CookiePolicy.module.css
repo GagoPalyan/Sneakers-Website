@@ -1,0 +1,48 @@
+.main {
+  width: 100%;
+  min-height: calc(100vh - 85px);
+  padding: var(--maxWidthPadding);
+  background-color: rgb(225, 225, 225);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  align-items: start;
+}
+.main .title {
+  font-family: BebasNeue;
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.main .capture {
+  margin: 5px 0;
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.main .about {
+  font-family: BebasNeue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  margin: 5px 0;
+  font-style: italic;
+}
+.main ul li {
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+
+@media (width <= 768px) {
+  .main {
+    padding: 0 5px;
+  }
+}/*# sourceMappingURL=CookiePolicy.module.css.map */

@@ -1,0 +1,30 @@
+.navBar {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.navBar .link {
+  width: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  transition: 0.5s;
+  border-bottom: 3px solid white;
+}
+@media (hover: hover) {
+  .navBar .link:hover {
+    border-color: rgb(150, 150, 150);
+  }
+}/*# sourceMappingURL=NavBar.module.css.map */

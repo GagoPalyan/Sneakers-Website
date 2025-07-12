@@ -1,0 +1,16 @@
+:root {
+  --desktop: 1920px;
+  --content: 1440px;
+  --maxWidthPadding: 10px calc(50% - 910px);
+}
+
+@media (width <= 1920px) {
+  :root {
+    --maxWidthPadding: 0 50px;
+  }
+}
+@media (width <= 768px) {
+  :root {
+    --maxWidthPadding: 0;
+  }
+}

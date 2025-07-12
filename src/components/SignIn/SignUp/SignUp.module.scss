@@ -1,0 +1,40 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.signUpBox {
+  @include display(320px, auto, space-between, start, column);
+  min-height: 450px;
+  background-color: $color1;
+  padding: 10px;
+  border: 1px solid black;
+  position: relative;
+  .description {
+    @include font($font2, calc($fontSize2 * 1.2), $color4);
+  }
+  .about {
+    @include font($font1, calc($fontSize3 * 0.9), $color3);
+    a {
+      text-decoration: underline;
+    }
+  }
+  .inputBox {
+    margin: 5px 0;
+    @include display(100%, 45px, space-between, start, column);
+    position: relative;
+    .input {
+      @include input(100%);
+    }
+    .error {
+      display: none;
+      @include position(12.5px, $right: 12.5px);
+    }
+  }
+  .checkBox {
+    margin: 5px 0;
+    @include display(auto, 40px, start);
+    cursor: pointer;
+    input {
+      margin-right: 10px;
+    }
+  }
+}

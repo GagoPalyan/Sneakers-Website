@@ -1,0 +1,72 @@
+.signUpBox {
+  width: 320px;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 450px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  position: relative;
+}
+.signUpBox .description {
+  font-family: BebasNeue;
+  font-size: calc(clamp(1rem, 2vw, 1.5rem) * 1.2);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.signUpBox .about {
+  font-family: Agdasima;
+  font-size: calc(clamp(0.875rem, 1.5vw, 1.2rem) * 0.9);
+  color: rgb(150, 150, 150);
+  font-weight: 400;
+  text-align: start;
+}
+.signUpBox .about a {
+  text-decoration: underline;
+}
+.signUpBox .inputBox {
+  margin: 5px 0;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.signUpBox .inputBox .input {
+  width: 100%;
+  height: 45px;
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+}
+.signUpBox .inputBox .error {
+  display: none;
+  position: absolute;
+  top: 12.5px;
+  left: auto;
+  right: 12.5px;
+}
+.signUpBox .checkBox {
+  margin: 5px 0;
+  width: auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  cursor: pointer;
+}
+.signUpBox .checkBox input {
+  margin-right: 10px;
+}/*# sourceMappingURL=SignUp.module.css.map */

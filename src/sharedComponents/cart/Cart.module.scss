@@ -1,0 +1,67 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.cart {
+  margin: 1%;
+  transition: 0.3s;
+  @include display(23%, auto, space-between, center, column);
+  img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+  }
+  .info {
+    @include display(100%, auto, space-between, center);
+    margin-top: 5px;
+    .categoryPrice {
+      width: 75%;
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      @include font($font1, $fontSize2, $color4);
+    }
+    .price {
+      @include font($font2, $fontSize2, $color4);
+    }
+  }
+  @media (hover: hover) {
+    &:hover {
+      width: 25%;
+      margin: 0;
+      img {
+        border: 1px solid $color4;
+      }
+    }
+  }
+}
+
+@media (width <= 768px) {
+  .cart {
+    width: 31.3%;
+    @media (hover: hover) {
+      &:hover {
+        width: 33.3%;
+        margin: 0;
+        img {
+          border: 1px solid $color4;
+        }
+      }
+    }
+  }
+}
+
+@media (width <= 425px) {
+  .cart {
+    width: 48%;
+    @media (hover: hover) {
+      &:hover {
+        width: 50%;
+        margin: 0;
+        img {
+          border: 1px solid $color4;
+        }
+      }
+    }
+  }
+}

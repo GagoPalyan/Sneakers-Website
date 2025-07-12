@@ -1,0 +1,14 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.content {
+  .title {
+    @include font($font2, $fontSize1);
+  }
+  .info {
+    @include font($font1, $fontSize3);
+  }
+  .link {
+    @include font($font2, $fontSize3);
+  }
+}

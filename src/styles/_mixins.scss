@@ -1,0 +1,134 @@
+@import "./variables";
+
+@mixin display(
+  $width,
+  $height,
+  $justifyContent: space-between,
+  $alignItem: center,
+  $flexDirection: row,
+  $flexWrap: nowrap
+) {
+  width: $width;
+  height: $height;
+  display: flex;
+  align-items: $alignItem;
+  justify-content: $justifyContent;
+  flex-direction: $flexDirection;
+  flex-wrap: $flexWrap;
+}
+
+@mixin main($padding: var(--maxWidthPadding)) {
+  width: 100%;
+  min-height: calc(100vh - 85px);
+  padding: $padding;
+  background-color: $color2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+@mixin newComponent($height, $padding: 0, $alignItem: center) {
+  width: 100%;
+  height: $height;
+  padding: $padding;
+  display: flex;
+  align-items: $alignItem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@mixin absolute(
+  $height: auto,
+  $bckColor: $color1,
+  $padding: var(--maxWidthPadding),
+  $alignItem: center,
+  $justifyContent: space-between,
+  $flexDirection: row
+) {
+  width: 100%;
+  height: $height;
+  padding: $padding;
+  display: flex;
+  background-color: $bckColor;
+  flex-direction: $flexDirection;
+  align-items: $alignItem;
+  justify-content: $justifyContent;
+}
+
+@mixin font($font, $size: $fontSize3, $color: $color4, $weight: 400) {
+  font-family: $font;
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  text-align: start;
+}
+
+@mixin background() {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin popup(
+  $width,
+  $height,
+  $flexDirection: column,
+  $alignItem: start,
+  $justifyContent: space-between,
+  $padding: 40px
+) {
+  width: $width;
+  height: $height;
+  display: flex;
+  position: relative;
+  border: 1px solid $color4;
+  padding: $padding;
+  background-color: $color1;
+  z-index: 3;
+  flex-direction: $flexDirection;
+  align-items: $alignItem;
+  justify-content: $justifyContent;
+}
+
+@mixin position($top: 0, $left: auto, $right: auto, $position: absolute) {
+  position: $position;
+  top: $top;
+  left: $left;
+  right: $right;
+}
+
+@mixin input($width: 300px, $height: 45px) {
+  width: $width;
+  height: $height;
+  font-family: $font1;
+  font-size: $fontSize2;
+  color: $color4;
+  border: 1px solid $color4;
+  padding: 5px;
+}
+
+@mixin customButton() {
+  padding: 5px 10px 0 10px;
+  background-color: $color4;
+  font-family: $font2;
+  font-size: $fontSize1;
+  color: $color1;
+  font-weight: 400;
+  @media (hover: hover) {
+    &:hover {
+      color: $color3;
+    }
+  }
+  @media (width <= 768px) {
+    padding: 2px 5px 0 5px;
+  }
+}

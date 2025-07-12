@@ -1,0 +1,32 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.main {
+  @include main();
+  justify-content: space-between;
+  .title {
+    @include display(100%, auto, center);
+    @include font($font2, $fontSize1, $color4);
+    background-color: $color1;
+  }
+  .cart {
+    @include display(100%, auto, space-between, center, column);
+  }
+  .total {
+    @include display(100%, auto, space-between, center);
+    background-color: $color1;
+    border: 1px solid $color4;
+    padding: 5px;
+    p {
+      @include font($font2, $fontSize1, $color4);
+    }
+  }
+}
+
+.empty {
+  @include display(100%, calc(100vh - 85px), center, center, column);
+  background-color: $color2;
+  p {
+    @include font($font2, $fontSize0, $color4);
+  }
+}

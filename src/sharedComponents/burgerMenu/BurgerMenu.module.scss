@@ -1,0 +1,74 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.burgerMenu {
+  @include display(24px, 24px, center, center);
+}
+
+.background {
+  @include background();
+  .menu {
+    @include position(0, $right: 0);
+    @include display(320px, 100vh, space-between, start, column);
+    background-color: $color1;
+    z-index: 3;
+    padding: 10px;
+    .head {
+      @include display(100%, 40px, space-between);
+    }
+    .body {
+      @include display(100%, 100%, start, center, column);
+      overflow-x: auto;
+      .shopPages {
+        @include display(100%, auto, start, center, column);
+        margin: 10px 0;
+        .link {
+          @include display(100%, 50px, start, center);
+          @include font($font2, $fontSize2);
+          position: relative;
+          &::after,
+          &::before {
+            content: "";
+            width: 10px;
+            transform: rotate(45deg);
+            border: 1px solid black;
+            @include position(21px, $right: 15px);
+          }
+          &::before {
+            transform: rotate(-45deg);
+            top: 27px;
+          }
+        }
+      }
+      .profile {
+        @include display(100%, auto, $flexDirection: column);
+        background-color: $color4;
+        padding: 5px 0;
+        a,
+        p,
+        button {
+          @include font($font2, $fontSize2, $color1);
+        }
+        button {
+          padding: 4px 8px 2px 8px;
+          border: 1px solid $color1;
+        }
+      }
+      .pages {
+        @include display(100%, auto, start, center, column);
+        margin-top: 10px;
+        a {
+          margin: 2px 0;
+          @include display(100%, auto, center, center);
+          @include font($font1, $fontSize3, $color4);
+          padding: 5px 0;
+          border: 1px solid $color4;
+        }
+      }
+    }
+    .languages {
+      @include display(100%, 40px, space-between, $flexWrap: wrap);
+      margin-bottom: 120px;
+    }
+  }
+}

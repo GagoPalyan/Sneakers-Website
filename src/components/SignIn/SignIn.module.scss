@@ -1,0 +1,59 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+@keyframes backgroundAnimation {
+  0% {
+    background-color: $color1;
+  }
+  50% {
+    background-color: $color3;
+  }
+  100% {
+    background-color: $color1;
+  }
+}
+
+.main {
+  @include display(100%, calc(100vh - 85px), center, center);
+  animation: backgroundAnimation 5s infinite ease;
+  .signInBox {
+    @include display(320px, auto, space-between, start, column);
+    min-height: 450px;
+    background-color: $color1;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+    .emails {
+      @include display(120px, 40px, space-between);
+      margin: 5px 0;
+    }
+    .description {
+      margin: 5px 0;
+      @include font($font2, calc($fontSize2 * 1.2), $color4);
+    }
+    .about {
+      margin: 5px 0;
+      @include font($font1, 16px, $color3);
+      a {
+        text-decoration: underline;
+      }
+    }
+    .inputBox {
+      margin: 5px 0;
+      @include display(100%, 45px, space-between, start, column);
+      position: relative;
+      .input {
+        @include input();
+      }
+      .error {
+        display: none;
+        @include position(12.5px, $right: 12.5px);
+      }
+    }
+    .rememberMe {
+      margin: 5px 0;
+      @include display(auto, 40px, start);
+      cursor: pointer;
+    }
+  }
+}

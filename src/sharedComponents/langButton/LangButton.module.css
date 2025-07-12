@@ -1,0 +1,22 @@
+.button {
+  width: 150px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 900;
+  text-align: start;
+}
+@media (hover: hover) {
+  .button:hover {
+    background-color: rgb(225, 225, 225);
+  }
+}
+.button svg {
+  margin: 0 10px;
+}/*# sourceMappingURL=LangButton.module.css.map */

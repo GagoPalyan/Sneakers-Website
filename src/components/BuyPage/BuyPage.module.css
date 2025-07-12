@@ -1,0 +1,446 @@
+.main {
+  width: 100%;
+  min-height: calc(100vh - 85px);
+  padding: var(--maxWidthPadding);
+  background-color: rgb(225, 225, 225);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main .content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 10px;
+}
+.main .content .title {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 13px 0 10px 0;
+  font-family: BebasNeue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.main .content .left {
+  width: 49%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+.main .content .left .chapter {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.main .content .left .chapter .about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  border-top: 1px solid black;
+}
+.main .content .left .chapter .inputBox {
+  margin: 5px 0;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.main .content .left .chapter .inputBox .input {
+  width: 100%;
+  height: 45px;
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+}
+.main .content .left .chapter .inputBox .error {
+  display: none;
+  position: absolute;
+  top: 12.5px;
+  left: auto;
+  right: 12.5px;
+}
+.main .content .left .chapter .inputRowBox {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.main .content .left .chapter .inputRowBox .inputBox {
+  width: calc(50% - 5px);
+}
+.main .content .left .chapter .inputRowBox2 {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 5px 0;
+}
+.main .content .left .chapter .inputRowBox2 .inputBox {
+  width: calc(33.3% - 5px);
+}
+.main .content .left .chapter .accept {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px 0;
+}
+.main .content .right {
+  width: 49%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.main .content .right .subtitle {
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.main .content .right .coupon {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+.main .content .right .coupon li {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.main .content .right .coupon li p {
+  font-family: Agdasima;
+  font-size: calc(clamp(1rem, 2vw, 1.5rem) * 0.8);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.main .content .right .coupon .promo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.main .content .right .coupon .promo .promoInput {
+  width: 300px;
+  height: 45px;
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+}
+.main .content .right .coupon .promo .promoApply {
+  padding: 5px 10px 0 10px;
+  background-color: black;
+  font-family: BebasNeue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: white;
+  font-weight: 400;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  height: 45px;
+}
+@media (hover: hover) {
+  .main .content .right .coupon .promo .promoApply:hover {
+    color: rgb(150, 150, 150);
+  }
+}
+@media (width <= 768px) {
+  .main .content .right .coupon .promo .promoApply {
+    padding: 2px 5px 0 5px;
+  }
+}
+.main .content .right .list {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+.main .content .right .list li {
+  border: 1px solid black;
+  margin-bottom: 5px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: BebasNeue;
+  font-size: calc(clamp(1rem, 2vw, 1.5rem) * 0.8);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.main .content .right .list li img {
+  width: 50px;
+  aspect-ratio: 1/1;
+  margin-right: 5px;
+}
+
+@media (width <= 768px) {
+  .main .content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: white;
+    padding: 10px;
+  }
+  .main .content .title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 13px 0 10px 0;
+    font-family: BebasNeue;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    color: black;
+    font-weight: 400;
+    text-align: start;
+  }
+  .main .content .left {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    list-style: none;
+  }
+  .main .content .left .chapter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .main .content .left .chapter .about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: BebasNeue;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: black;
+    font-weight: 400;
+    text-align: start;
+    border-top: 1px solid black;
+  }
+  .main .content .left .chapter .inputBox {
+    margin: 5px 0;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+  }
+  .main .content .left .chapter .inputBox .input {
+    width: 100%;
+    height: 45px;
+    font-family: Agdasima;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  .main .content .left .chapter .inputBox .error {
+    display: none;
+    position: absolute;
+    top: 12.5px;
+    left: auto;
+    right: 12.5px;
+  }
+  .main .content .left .chapter .inputRowBox {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .main .content .left .chapter .inputRowBox .inputBox {
+    width: calc(50% - 5px);
+  }
+  .main .content .left .chapter .inputRowBox2 {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 5px 0;
+  }
+  .main .content .left .chapter .inputRowBox2 .inputBox {
+    width: calc(33.3% - 5px);
+  }
+  .main .content .left .chapter .accept {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px 0;
+  }
+  .main .content .right {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-top: 3px dotted black;
+  }
+  .main .content .right .subtitle {
+    font-family: BebasNeue;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: black;
+    font-weight: 400;
+    text-align: start;
+  }
+  .main .content .right .coupon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    list-style: none;
+  }
+  .main .content .right .coupon li {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .main .content .right .coupon li p {
+    font-family: Agdasima;
+    font-size: calc(clamp(1rem, 2vw, 1.5rem) * 0.8);
+    color: black;
+    font-weight: 400;
+    text-align: start;
+  }
+  .main .content .right .list {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    list-style: none;
+  }
+  .main .content .right .list li {
+    border: 1px solid black;
+    margin-bottom: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: BebasNeue;
+    font-size: calc(clamp(1rem, 2vw, 1.5rem) * 0.8);
+    color: black;
+    font-weight: 400;
+    text-align: start;
+  }
+  .main .content .right .list li img {
+    width: 50px;
+    aspect-ratio: 1/1;
+    margin-right: 5px;
+  }
+}/*# sourceMappingURL=BuyPage.module.css.map */

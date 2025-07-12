@@ -1,0 +1,88 @@
+.content {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  display: flex;
+  background-color: rgb(150, 150, 150);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .textBox {
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.content .textBox .title {
+  font-family: BebasNeue;
+  font-size: calc(clamp(2rem, 5vw, 4rem) * 1.85);
+  color: white;
+  font-weight: 400;
+  text-align: start;
+  line-height: 0.82;
+  text-align: center;
+}
+.content .textBox .about {
+  font-family: BebasNeue;
+  font-size: clamp(0.875rem, 1.5vw, 1.2rem);
+  color: white;
+  font-weight: 400;
+  text-align: start;
+}
+.content .textBox .buttons {
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.content .textBox .buttons a {
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: white;
+  font-weight: 400;
+  text-align: start;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: black;
+  padding: 2px 8px 0 8px;
+}
+.content .photo {
+  width: 60%;
+}
+
+@media (width <= 650px) {
+  .content {
+    flex-direction: column;
+  }
+  .content .textBox {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .content .textBox .title {
+    font-size: calc(clamp(2rem, 5vw, 4rem) * 2.6);
+  }
+  .content .textBox .about {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+  }
+  .content .textBox .buttons {
+    width: 100%;
+  }
+  .content .textBox .buttons a {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+  }
+  .content .photo {
+    display: none;
+  }
+}/*# sourceMappingURL=HomeContent3.module.css.map */

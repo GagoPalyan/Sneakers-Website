@@ -1,0 +1,191 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.main {
+  @include main();
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .content {
+    @include display(100%, auto, space-between, start, row, wrap);
+    background-color: $color1;
+    padding: 10px;
+    .title {
+      @include display(100%, auto, center, center);
+      padding: 13px 0 10px 0;
+      @include font($font2, $fontSize1, $color4);
+    }
+    .left {
+      @include display(49%, auto, start, start, column);
+      list-style: none;
+      .chapter {
+        @include display(100%, auto, start, start, column);
+        .about {
+          @include display(100%, auto, start);
+          @include font($font2, $fontSize2, $color4);
+          border-top: 1px solid $color4;
+        }
+        .inputBox {
+          margin: 5px 0;
+          @include display(100%, 45px, space-between, start, column);
+          position: relative;
+          .input {
+            @include input(100%);
+          }
+          .error {
+            display: none;
+            @include position(12.5px, $right: 12.5px);
+          }
+        }
+        .inputRowBox {
+          @include display(100%, 45px, space-between, center);
+          .inputBox {
+            width: calc(50% - 5px);
+          }
+        }
+        .inputRowBox2 {
+          @include display(100%, 45px, space-between, center);
+          margin: 5px 0;
+          .inputBox {
+            width: calc(33.3% - 5px);
+          }
+        }
+        .accept {
+          @include display(100%, auto, end);
+          margin: 10px 0;
+        }
+      }
+    }
+    .right {
+      @include display(49%, auto, start, start, column);
+      .subtitle {
+        @include font($font2, $fontSize2, $color4);
+      }
+      .coupon {
+        @include display(100%, auto, start, start, column);
+        list-style: none;
+        li {
+          @include display(100%, auto);
+          p {
+            @include font($font1, calc($fontSize2 * 0.8), $color4);
+          }
+        }
+        .promo {
+          @include display(100%, auto);
+          .promoInput {
+            @include input();
+          }
+          .promoApply {
+            @include customButton();
+            font-size: $fontSize2;
+            height: 45px;
+          }
+        }
+      }
+      .list {
+        margin-top: 10px;
+        @include display(100%, auto, start, start, column);
+        list-style: none;
+        li {
+          border: 1px solid $color4;
+          margin-bottom: 5px;
+          @include display(100%, auto, start, center);
+          @include font($font2, calc($fontSize2 * 0.8), $color4);
+          img {
+            width: 50px;
+            aspect-ratio: 1/1;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (width <= 768px) {
+  .main {
+    .content {
+      @include display(100%, auto, space-between, start, column);
+      background-color: $color1;
+      padding: 10px;
+      .title {
+        @include display(100%, auto, center, center);
+        padding: 13px 0 10px 0;
+        @include font($font2, $fontSize1, $color4);
+      }
+      .left {
+        @include display(100%, auto, start, start, column);
+        list-style: none;
+        .chapter {
+          @include display(100%, auto, start, start, column);
+          .about {
+            @include display(100%, auto, start);
+            @include font($font2, $fontSize2, $color4);
+            border-top: 1px solid $color4;
+          }
+          .inputBox {
+            margin: 5px 0;
+            @include display(100%, 45px, space-between, start, column);
+            position: relative;
+            .input {
+              @include input(100%);
+            }
+            .error {
+              display: none;
+              @include position(12.5px, $right: 12.5px);
+            }
+          }
+          .inputRowBox {
+            @include display(100%, 45px, space-between, center);
+            .inputBox {
+              width: calc(50% - 5px);
+            }
+          }
+          .inputRowBox2 {
+            @include display(100%, 45px, space-between, center);
+            margin: 5px 0;
+            .inputBox {
+              width: calc(33.3% - 5px);
+            }
+          }
+          .accept {
+            @include display(100%, auto, end);
+            margin: 10px 0;
+          }
+        }
+      }
+      .right {
+        @include display(100%, auto, start, start, column);
+        border-top: 3px dotted $color4;
+        .subtitle {
+          @include font($font2, $fontSize2, $color4);
+        }
+        .coupon {
+          @include display(100%, auto, start, start, column);
+          list-style: none;
+          li {
+            @include display(100%, auto);
+            p {
+              @include font($font1, calc($fontSize2 * 0.8), $color4);
+            }
+          }
+        }
+        .list {
+          margin-top: 10px;
+          @include display(100%, auto, start, start, column);
+          list-style: none;
+          li {
+            border: 1px solid $color4;
+            margin-bottom: 5px;
+            @include display(100%, auto, start, center);
+            @include font($font2, calc($fontSize2 * 0.8), $color4);
+            img {
+              width: 50px;
+              aspect-ratio: 1/1;
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

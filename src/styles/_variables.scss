@@ -1,0 +1,15 @@
+$desktop: var(--desktop);
+$content: var(--content);
+
+$color1: white;
+$color2: rgb(225, 225, 225);
+$color3: rgb(150, 150, 150);
+$color4: black;
+
+$font1: Agdasima;
+$font2: BebasNeue;
+
+$fontSize0: clamp(2rem, 5vw, 4rem);
+$fontSize1: clamp(1.5rem, 4vw, 3rem);
+$fontSize2: clamp(1rem, 2vw, 1.5rem);
+$fontSize3: clamp(0.875rem, 1.5vw, 1.2rem);

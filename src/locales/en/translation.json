@@ -1,0 +1,478 @@
+{
+  "header": {
+    "topBar": {
+      "contactUs": "Contact Us",
+      "signIn": "Sign In",
+      "logOut": "Log Out"
+    },
+    "navBar": {
+      "men": "MEN",
+      "women": "WOMEN",
+      "adidas": "ADIDAS",
+      "nike": "NIKE"
+    }
+  },
+  "footer": "©2024 KickZZZup, Inc. All Rights Reserved",
+  "languageMenu": {
+    "title": "CHOOSE YOUR LANGUAGE"
+  },
+  "home": {
+    "content1": {
+      "carousel1": {
+        "title": "Join to us",
+        "text": "Sign in now and take you own sneakers",
+        "button": "Sign In"
+      },
+      "carousel2": {
+        "title": "Adidas",
+        "text": "Impossible is Nothing",
+        "button": "Buy Now"
+      },
+      "carousel3": {
+        "title": "Nike",
+        "text": "Just do it",
+        "button": "Buy Now"
+      },
+      "carousel4": {
+        "title": "Nike Air Max 270",
+        "text": "Sneakers offer you unique cushioning and comfort with every step. Lightness, style, and support — you're ready for new heights."
+      },
+      "carousel5": {
+        "title": "Sale",
+        "text": "Only now! Up to 30% off selected models. Don't miss your chance to get the best sneakers at great prices!"
+      },
+      "carousel6": {
+        "title": "Nike Pegasus 39",
+        "text": "For true runners. Nike Pegasus 39 provides support and lightness that make each run easier. Optimal cushioning for your achievements."
+      },
+      "carousel7": {
+        "title": "Style, Comfort, and Innovation",
+        "text": "Feel confident with every step in sneakers from the world’s best brands. New arrivals, exclusive collections, and great offers are waiting for you!"
+      },
+      "carousel8": {
+        "title": "Men's Sneakers",
+        "text": "For those who value style and high-tech. Men's sneakers from Nike and Adidas, designed for active and confident individuals."
+      },
+      "carousel9": {
+        "title": "Women's Sneakers",
+        "text": "Style that accompanies you every step of the way. Choose women's sneakers from Nike and Adidas that combine elegance and comfort."
+      }
+    },
+    "content2": {
+      "title": "Choose Your Side",
+      "button": "Shop Now"
+    },
+    "content3": {
+      "text": {
+        "title1": "GRAND",
+        "title2": "GIVING",
+        "title3": "EVENT",
+        "about": "UP TO 50% Off ALMOST EVERYTHING"
+      },
+      "men": "SHOP MEN",
+      "women": "SHOP WOMEN"
+    },
+    "content4": {
+      "title": "Best sellers"
+    }
+  },
+  "signIn": {
+    "step1": {
+      "description": "Enter your email to join us or sign in.",
+      "about": "Get free shipping, discount vouchers and members only products when you’re in KickZZZup.",
+      "placeholder": "Email address*",
+      "rememberMe": "Keep me logged in. Applies to all options.",
+      "byContinue1": "By continuing, I agree to KickZZZup",
+      "byContinue2": "and ",
+      "link1": "Privacy Policy ",
+      "link2": "Terms of Use",
+      "button": "CONTINUE"
+    },
+    "signUp": {
+      "description": "Now let's make you a KickZZZup Member.",
+      "namePlaceholder": "Name*",
+      "lastnamePlaceholder": "Lastname*",
+      "passwordPlaceholder": "Password*",
+      "checkBox1": "I'm 16+ years old. *",
+      "checkBox2": {
+        "byContinue1": "I agree to KickZZZup ",
+        "byContinue2": " and ",
+        "link1": "Privacy Policy",
+        "link2": "Terms of Use."
+      },
+      "button": "SIGN UP"
+    },
+    "logIn": {
+      "description": "Welcome back.",
+      "button": "LOG IN",
+      "tryAgain": "Wrong password. Try again!"
+    }
+  },
+  "security": {
+    "privacyPolicy": {
+      "title": "KICKZZZUP PRIVACY POLICY AND COOKIE POLICY",
+      "about1": "This privacy policy describes the personal data collected or generated (processed) when you interact with KickzzzUP through our websites, digital experiences, mobile applications, stores, events, or one of our other products or services, all of which are part of KickzzzUP’s Platform (“Platform”). It also explains how your personal data is used, shared, and protected, what choices you have relating to your personal data, and how you can contact us.",
+      "capture1": "WHO is Responsible for the Processing of Your Personal Data?",
+      "list1": {
+        "1": "The KickzzzUP entity responsible for the processing of your personal data will depend on how you interact with KickzzzUP’s Platform and where you are located in the world.",
+        "2": "The relevant KickzzzUP entity is referred to as “KickzzzUP”, “our”, “we” or “us” in this privacy policy.",
+        "3": "Please review our List of Local Entities for the name of the KickzzzUP entity responsible and the appropriate contact information."
+      },
+      "about2": "WHAT Personal Data Do We Collect and WHEN?",
+      "capture2": "We ask you for certain personal data to provide you with the products or services you request, including:",
+      "list2": {
+        "1": "Contact details: name, email, telephone number, shipping and billing address",
+        "2": "Login and account information: screen name, password, unique user ID",
+        "3": "Personal details: gender, hometown, date of birth, purchase history",
+        "4": "Payment or credit card information",
+        "5": "Images, photos, and videos",
+        "6": "Data on physical characteristics: weight, height, body measurements",
+        "7": "Fitness activity data: time, duration, distance, location, calorie count, pace/stride",
+        "8": "Personal preferences: wish list, marketing, and cookie preferences"
+      },
+      "capture3": "We collect additional personal data for specific features, including:",
+      "list3": {
+        "1": "Movement data from your device’s accelerometer",
+        "2": "Photos, audio, contacts, and calendar information",
+        "3": "Sensor data: heart rate and GPS location data",
+        "4": "Social network information: credentials and public post information"
+      },
+      "capture4": "Automatically collected data includes:",
+      "list4": {
+        "1": "Device IDs and type, call state, network access, storage information, and battery information",
+        "2": "Traffic data: products viewed, cart interactions, login status",
+        "3": "Cookies, IP addresses, browser data, web beacons, and interactions with our Platform"
+      },
+      "capture5": "KIDS",
+      "list5": {
+        "1": "We comply with local laws and do not allow children to register on our Platform when they are under the legal age limit of the country in which they reside.",
+        "2": "We will ask for parental consent for children participating in KickzzzUP experiences and events."
+      },
+      "capture6": "TOOLS to Manage What Personal Data We Collect",
+      "list6": {
+        "1": "We provide notice or obtain consent for certain practices.",
+        "2": "Your web browser or mobile device platform may offer tools to manage cookie usage or location sharing.",
+        "3": "We encourage you to familiarize yourself with these tools."
+      },
+      "capture7": "WHY and HOW Do We Use Your Personal Data?",
+      "list7": {
+        "1": "To provide requested products or services.",
+        "2": "To communicate about our products, services, events, and promotions.",
+        "3": "To send marketing communications, subject to your consent.",
+        "4": "To personalize communications based on your interactions.",
+        "5": "To operate, improve, and maintain our business and services.",
+        "6": "To protect rights, property, or safety.",
+        "7": "For general research and analysis purposes."
+      },
+      "capture8": "Use (Processing) of Workout Info",
+      "list8": {
+        "1": "KickzzzUP collects data about your fitness activity and physical characteristics.",
+        "2": "We take appropriate measures to protect this sensitive data and obtain consent where required."
+      },
+      "capture9": "Account Linking",
+      "list9": {
+        "1": "If you link your KickzzzUP account with a Partner account, we will obtain your consent.",
+        "2": "We use personal data to personalize your experience and send personalized marketing communications."
+      }
+    },
+    "termsOfUse": {
+      "title": "TERMS OF USE",
+      "subtitle1": "REFUND INFORMATION",
+      "capture1": "Refunds will be issued based on the original form of payment. If you paid via bank transfer, you need to give this information to Customer Service when you initiate the return so that we can refund the money directly to your account. For practical information on how to return and for refund timelines, see here.",
+      "subtitle2": "CONDITIONS APPLICABLE TO PRE-ORDERED PRODUCTS",
+      "capture2": "Pre-order is the process by which you are able to order a product in advance of the scheduled retail launch. Due to the nature of pre-ordering, the following specific conditions apply to pre-ordered products:",
+      "list1": {
+        "title1": "Delivery.",
+        "text1": "Pre-ordered products are targeted to be delivered before the retail launch date, provided that we have received your payment at least 3 working days before such date. Concrete delivery times depend on the moment the product is available in our warehouse. Standard delivery timelines will apply from the moment the pre-ordered product is available in our warehouse. This information is best estimates only, timelines are not binding.",
+        "title2": "Payment.",
+        "text2": "Unless you have chosen for payment upon or after delivery, the following applies. Your payment will be deducted as soon as the order is received (or, in the event of bank transfer, as soon as possible). We will not start the execution of your order prior to having received payment. For bank transfers, this may mean that delivery will be later than set out under the bullet point above.",
+        "title3": "Product launch date.",
+        "text3": "The scheduled retail launch date (product launch) for your pre-order product can be found in the product description page on the Website."
+      },
+      "subtitle3": "EVENTS OUTSIDE OUR CONTROL",
+      "capture3": "An Event Outside Our Control means any act or event beyond our reasonable control, including without limitation strikes, lock-outs or other industrial action by third parties, civil commotion, riot, invasion, terrorist attack or threat of terrorist attack, war (whether declared or not) or threat or preparation for war, fire, explosion, storm, flood, earthquake, subsidence, epidemic, pandemic or other natural disaster, or failure of public or private telecommunications networks.",
+      "capture4": "If an Event Outside Our Control takes place that affects the performance of our obligations under these Terms of Sale:",
+      "list2": {
+        "text1": "We will contact you as soon as reasonably possible to notify you; and",
+        "text2": "Our obligations under these general conditions will be suspended and the time for performance of our obligations will be extended for the duration of the Event Outside Our Control."
+      },
+      "capture5": "Where the Event Outside Our Control affects our delivery of a product to you, we will arrange a new delivery date with you after the Event Outside Our Control is over. You may cancel the contract if an Event Outside Our Control takes place and you no longer wish us to provide the products. Please see your cancellation rights under Cancellation above.",
+      "subtitle4": "OTHER IMPORTANT TERMS",
+      "about4": "FREE DELIVERY",
+      "capture6": "If you make a purchase that exceeds the threshold relevant to your delivery country, you will receive FREE ‘standard delivery’, or the option of discounted ‘express delivery’. Other conditions may also qualify you for free shipping. See the help section of the Website for threshold amounts and their corresponding discounted delivery rates.",
+      "subtitle5": "CUSTOMIZING ITEMS",
+      "about5": "Customization Conditions",
+      "capture7": "For most customized (KickzzzupiD) items, you can submit a combination of letters, spaces and numbers to form an “ID” – a personalized message that appears on your creation. We reserve the right in our sole discretion to decline an ID, for example because it contains a trademark belonging to a third party, or the names of sports teams, athletes, or celebrities that you (or Kickzzzup) do not have the right to use, or because it contains material that we consider inappropriate. If we reject your ID you will be notified as soon as possible by email.",
+      "about6": "Consumer Acknowledgements Relating to Customization",
+      "list3": {
+        "text1": "Both your design of the item (the colour combination, etc.) and the personalization shall be created by you.",
+        "text2": "If someone else created the design or personalization, you guarantee you are authorized to use it.",
+        "text3": "While we may decline your personalization or design, you are responsible for it, and we have no obligation to review or decline your design or personalization.",
+        "text4": "Your design and personalization qualify as “User Content,” as outlined in Article 2 of the Terms of Use."
+      },
+      "subtitle6": "RETURNS & CANCELLATIONS",
+      "about7": "Canceling Order Before Delivery",
+      "capture8": "You may cancel any order free of charge and without providing a reason, provided it has not yet been shipped. Check the status by visiting the 'Order status' link at the top right of the Website. If the order status is 'Pending' or 'On Hold,' you may cancel by contacting our call center. If successful, you’ll receive an email confirming the cancellation.",
+      "about8": "Note:",
+      "capture9": "Customized (KickzzzupiD) orders cannot be canceled before shipment as production begins immediately upon ordering.",
+      "about9": "Returning Orders After Delivery – Defective Products",
+      "capture10": "In the event products are defective or do not conform to your order, you are entitled to return them. If justified, we will refund the purchase price and shipping costs. See the help section for return instructions.",
+      "capture11": "Under Dutch and EU law, we are liable for any lack of conformity in a product that becomes apparent within two years from delivery. This does not limit any of your statutory rights.",
+      "about10": "Your Right of Withdrawal",
+      "capture12": "If dissatisfied with a product, you may exercise your right of withdrawal within 30 calendar days of delivery. For orders with multiple items delivered separately, you may exercise this right within 30 days of the last item’s delivery. You are responsible for returning products undamaged, complete, and unused beyond assessing them. See the help section for withdrawal procedures and form.",
+      "capture13": "Once notified of your withdrawal, we will reimburse your payments, including delivery costs (excluding additional delivery choices), within 30 days of receiving the returned product.",
+      "subtitle7": "OTHER IMPORTANT TERMS",
+      "capture14": "We may transfer our rights and obligations under a contract to another organization. You may only transfer your rights or obligations with our written agreement.",
+      "capture15": "We contract with US Direct E-Commerce Limited (eShopWorld) for international sales and deliveries in specified countries. In these cases, the purchase and delivery terms are governed by eShopWorld’s Terms and Conditions.",
+      "subtitle8": "CHOICE OF LAW/JURISDICTION",
+      "capture16": "These Terms of Sale are governed by Dutch law. All disputes, claims, and proceedings will be resolved in the competent courts of Amsterdam, the Netherlands.",
+      "capture17": "If you have a complaint, contact us via our contact page. Alternatively, you may use the Online Dispute Resolution (ODR) platform accessible at "
+    },
+    "cookiePolicy": {
+      "title": "Cookie Policy for Kickzzzup",
+      "text1": "This Cookie Policy explains how Kickzzzup ('we', 'our', 'us') uses cookies and similar technologies on our website, kickzzzup.com ('Website'). By using our Website, you agree to the use of cookies in accordance with this policy.",
+      "caption1": "1. What are Cookies?",
+      "text2": "Cookies are small text files that are placed on your device when you visit a website. These files help the website remember your actions and preferences over time, allowing for a more personalized experience and improving the functionality of the site.",
+      "caption2": "2. Types of Cookies We Use",
+      "text3": "We use the following types of cookies on our Website:",
+      "text4": "Essential Cookies: These cookies are necessary for the operation of our Website. They enable core functionalities such as security, network management, and accessibility.",
+      "text5": "Performance Cookies: These cookies collect information about how visitors use our Website, such as which pages are visited most frequently. These cookies help us improve the performance of the Website by analyzing traffic patterns and user behavior.",
+      "text6": "Functionality Cookies: These cookies allow our Website to remember choices you make (such as language preferences or login details) and provide enhanced, more personalized features.",
+      "text7": "Targeting/Advertising Cookies: These cookies are used to deliver ads that are relevant to you. They are also used to track the effectiveness of our advertising campaigns.",
+      "text8": "Third-party Cookies: These cookies are set by third-party services, such as social media platforms (e.g., Facebook, Instagram) or advertising networks. These cookies may track your browsing habits across multiple websites.",
+      "caption3": "3. How We Use Cookies",
+      "text9": "We use cookies for the following purposes:",
+
+      "text10": "To improve the functionality of our Website and enhance user experience.",
+      "text11": "To analyze website traffic and user behavior to optimize our Website.",
+      "text12": "To provide personalized content and advertisements based on your interests and preferences.",
+      "text13": "To remember your preferences and login information.",
+      "text14": "To enable social media features, such as sharing buttons and interactive content.",
+      "caption4": "4. Managing Cookies",
+      "text15": "You have the ability to control cookies through your browser settings. Most browsers allow you to block or delete cookies, but please note that if you choose to block or delete certain cookies, it may affect the functionality of our Website.",
+
+      "text16": "You can manage your cookie preferences through your browser settings:",
+
+      "text17": "Google Chrome: Go to 'Settings' > 'Privacy and Security' > 'Cookies and other site data'.",
+      "text18": "Mozilla Firefox: Go to 'Options' > 'Privacy & Security' > 'Cookies and Site Data'.",
+      "text19": "Microsoft Edge: Go to 'Settings' > 'Cookies and site permissions'.",
+      "text20": "Safari: Go to 'Preferences' > 'Privacy' > 'Cookies and website data'.",
+      "text21": "Additionally, you can use online tools such as the European Interactive Digital Advertising Alliance (EDAA) to manage your advertising cookie preferences.",
+
+      "caption5": "5. Consent",
+      "text22": "By using our Website, you consent to the use of cookies as described in this Cookie Policy. If you do not agree with the use of cookies, you should adjust your browser settings or refrain from using our Website.",
+
+      "caption6": "6. Changes to This Cookie Policy",
+      "text23": "We may update our Cookie Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Any updates will be posted on this page, and the date of the latest revision will be indicated at the top of the page.",
+
+      "caption7": "7. Contact Us",
+      "text24": "If you have any questions or concerns about our use of cookies or this Cookie Policy, please contact us at:",
+
+      "text25": "Kickzzzup Customer Support",
+      "text26": "Email: support@kickzzzup.com"
+    },
+    "exchangePolicy": {
+      "title": "Return and Exchange Policy",
+      "about": "At Kickzzzup, we want you to be fully satisfied with your purchase. If you are not completely satisfied, we offer a straightforward return and exchange policy:",
+      "caption1": "Return Timeframe",
+      "text1": "You can return your item(s) within 30 days from the date of receipt for a full refund or exchange.",
+      "text2": "To initiate a return or exchange, please contact our customer service team at returns@kickzzzup.com.",
+      "caption2": "Conditions for Returns",
+      "text3": "The item(s) must be unused, unworn, and in original condition with all tags and packaging intact.",
+      "text4": "Footwear: We recommend trying on your shoes indoors to avoid any damage to the soles or marks. Any signs of wear or use may prevent your return from being accepted.",
+      "text5": "Non-returnable Items: Items marked as 'final sale' or purchased during promotional periods may not be eligible for return or exchange. This will be clearly indicated at checkout.",
+      "caption3": "Return Process",
+      "text6": "To return an item, please contact our customer support team for an RMA (Return Merchandise Authorization) number and the return address.",
+      "text7": "The customer is responsible for return shipping costs unless the item is defective or incorrect.",
+      "text8": "We recommend using a tracked shipping method for returns, as we are not responsible for lost return packages.",
+      "caption4": "Refunds",
+      "text9": "Once we receive the returned item, we will inspect it and process your refund within 7 business days.",
+      "text10": "Refunds will be issued to the original payment method. Please note that shipping fees are non-refundable unless the item was faulty or incorrect.",
+      "caption5": "Exchanges",
+      "text11": "If you need a different size or style, you may exchange your item within 30 days from the date of purchase.",
+      "text12": "If the item you want to exchange for is out of stock, we will offer you a refund or store credit for the value of the item.",
+      "caption6": "Damaged or Defective Items",
+      "text13": "If you receive a damaged or defective item, please contact us immediately at returns@kickzzzup.com with photos of the damage. We will provide you with a replacement or full refund."
+    },
+    "deliveryPolicy": {
+      "title": "Delivery Policy",
+      "about": "At Kickzzzup, we strive to provide our customers with a seamless shopping experience, including fast and reliable delivery. Below is our delivery policy:",
+      "caption1": "Delivery Time",
+      "text1": "Orders are processed and dispatched within 1-3 business days after payment confirmation.",
+      "text2": "Delivery time depends on your location and the shipping method selected. Typically, it takes between 3 to 10 business days to receive your order.",
+      "text3": "International deliveries may take up to 15 business days, depending on the destination.",
+      "caption2": "Shipping Costs",
+      "text4": "Domestic Shipping: We offer free shipping on orders over $50. For orders under $50, the standard shipping fee is $5.99.",
+      "text5": "International Shipping: International shipping fees are calculated based on the destination country and the weight of the order. You will be notified of the exact shipping cost during checkout.",
+      "caption3": "Shipping Methods",
+      "text6": "We use trusted carriers such as FedEx, UPS, and DHL for all deliveries.",
+      "text7": "You will receive a tracking number once your order has been dispatched, allowing you to track your package online.",
+      "caption4": "Shipping Restrictions",
+      "text8": "Currently, we ship to most countries worldwide, but please be aware that certain countries may have restrictions or additional customs fees.",
+      "caption5": "Undelivered Packages",
+      "text9": "If your package is undelivered due to incorrect address details, or if the package is unclaimed, please contact our support team within 30 days for assistance.",
+      "text10": "We are not responsible for any lost or delayed packages if the address provided is incorrect or incomplete."
+    },
+    "termsOfSale": {
+      "title": "Terms Of Sale",
+      "about": "These Terms of Sale ('Terms') govern the sale of products ('Products') through the website kickzzzup.com ('Website'). By placing an order with us, you agree to be bound by these Terms. Please read them carefully before making a purchase.",
+      "caption1": "Orders and Acceptance",
+      "text1": "Order Process: By placing an order on our Website, you are making an offer to purchase the Products you selected. Once your order is placed, you will receive an order confirmation email that includes the details of the Products you have purchased.",
+      "text2": "Order Acceptance: A contract between you and Kickzzzup is formed when we accept your order by dispatching the Products. We reserve the right to refuse or cancel any order for reasons including but not limited to product availability, errors in pricing or product description, or suspicion of fraudulent activity.",
+      "caption2": "Product Availability",
+      "text3": "Stock Availability: All orders are subject to availability. In the event that a Product is out of stock or unavailable, we will notify you and offer an alternative solution, such as a backorder, substitution, or refund.",
+      "text4": "Product Descriptions: We strive to provide accurate and up-to-date information on the Products listed on our Website, including descriptions, prices, and images. However, we cannot guarantee that all information is error-free and reserve the right to correct any inaccuracies.",
+      "caption3": "Pricing and Payment",
+      "text5": "Pricing: All prices on our Website are displayed in USD (or local currency) and are inclusive of applicable taxes unless otherwise stated. Shipping fees are not included in the Product price and will be added at checkout.",
+      "text6": "Payment: We accept payments via credit/debit cards (Visa, MasterCard, American Express), PayPal, and other payment methods available at checkout. Payments must be made in full at the time of purchase. By submitting an order, you authorize us to charge the payment method you selected.",
+      "text7": "Currency: If you are shopping from a country outside of the United States, prices will be displayed in your local currency, but the final transaction will be processed in USD or the currency applicable to your payment method.",
+      "caption4": "Shipping and Delivery",
+      "text8": "Shipping Fees: Shipping costs are calculated at checkout based on your shipping address and the delivery method you choose. We offer domestic and international shipping, with various shipping options (standard, expedited, express).",
+      "text9": "Delivery Times: Estimated delivery times are provided at checkout. However, these times are estimates and may vary depending on your location, shipping method, and other factors. Kickzzzup is not responsible for any delays caused by the shipping carrier or customs.",
+      "text10": "Address Accuracy: It is your responsibility to provide accurate and complete shipping information. We are not liable for delays or issues caused by incorrect or incomplete address details.",
+      "caption5": "Returns and Exchanges",
+      "text11": "Return Policy: We offer a 30-day return policy on most Products. If you are not completely satisfied with your purchase, you can return the item(s) for a refund or exchange. The item must be unused, unworn, and in its original condition with all packaging intact.",
+      "text12": "Return Process: To initiate a return, contact our customer service team at returns@kickzzzup.com for instructions. Customers are responsible for return shipping fees unless the product is defective or an error occurred on our part.",
+      "text13": "Refunds: Once we receive and inspect the returned item, we will process your refund within 7 business days. Refunds will be issued to the original payment method, excluding original shipping fees (unless the product was faulty or incorrect).",
+      "text14": "Exchanges: If you wish to exchange an item for a different size or style, you may do so within 30 days of purchase, subject to product availability. If the replacement product is unavailable, you will be issued a refund.",
+      "caption6": "Product Warranty",
+      "text15": "Warranty: Our Products may come with a manufacturer's warranty for a specific period. Any warranty information will be provided with the Product. In case of a defect, please contact us immediately, and we will assist you in the warranty claim process.",
+      "text16": "Exclusions: The warranty does not cover damage caused by misuse, accidents, or normal wear and tear.",
+      "caption7": "Limitation of Liability",
+      "text17": "Liability: Kickzzzup is not liable for any indirect, incidental, or consequential damages arising from the use or inability to use the Products. Our liability is limited to the price paid for the Product(s) purchased.",
+      "caption8": "Privacy and Data Protection",
+      "text18": "Privacy: Your use of our Website and purchase of Products is governed by our Privacy Policy, which explains how we collect, use, and protect your personal information.",
+      "text19": "Data Protection: We take data security seriously and comply with applicable data protection laws, including the General Data Protection Regulation (GDPR) for European customers.",
+      "caption9": "Changes to These Terms",
+      "text20": "We reserve the right to amend or update these Terms at any time. Any changes will be posted on this page, and the updated Terms will apply to all subsequent orders placed on the Website.",
+      "caption10": "Governing Law and Dispute Resolution",
+      "text21": "Governing Law: These Terms of Sale are governed by the laws of the jurisdiction in which Kickzzzup is based.",
+      "text22": "Dispute Resolution: Any disputes arising from these Terms or your purchase of Products will be resolved through binding arbitration, unless otherwise required by law.",
+      "caption11": "Contact Us",
+      "text23": "If you have any questions regarding these Terms or your order, please contact our customer support team at:",
+      "text24": "Kickzzzup Customer Support",
+      "text25": "Email: support@kickzzzup.com"
+    }
+  },
+  "404": {
+    "text": "404 Page Not Found",
+    "button": "Go To Home Page"
+  },
+  "sneakersPage": {
+    "about": {
+      "title1": "Size guide",
+      "title2": "Reviews"
+    },
+    "colors": "All colors",
+    "filter": "Filter & Sort",
+    "size": "Select size",
+    "addCart": "Add To Card",
+    "removeCart": "Remove From Card",
+    "addFavorite": "Add To Favorites",
+    "removeFavorite": "Remove From Favorites",
+    "more": "More"
+  },
+  "cartPage": {
+    "title": "Cart Page",
+    "empty": {
+      "text": "Cart Is Empty",
+      "button": "Go Back"
+    },
+    "price": "Total Price: $",
+    "button": "Checkout"
+  },
+  "favoritePage": {
+    "title": "Favorite Page",
+    "empty": "The list of preferred products is empty",
+    "cartProduct": {
+      "more": "Veiw more detials",
+      "remove": "Remove Item",
+      "size": "Size "
+    }
+  },
+  "checkoutPage": {
+    "title": "Checkout",
+    "chapter": {
+      "deliveryOptions": {
+        "about": "Delivery Options",
+        "email": "Email address*",
+        "name": "Name*",
+        "lastName": "Lastname*",
+        "country": "Choose Your Country",
+        "addreas": "Addreas*",
+        "city": "City*",
+        "postalCode": "Postal code*",
+        "phoneNumber": "Phone number*",
+        "button": "Save & Continue",
+        "link1": "Privacy Policy,",
+        "link2": "Terms of Use",
+        "link3": "Cookie Policy,",
+        "link4": "Return and Exchange Policy,",
+        "link5": "Delivery Policy",
+        "link6": "Terms of Sale for Kickzzzup"
+      },
+      "payment": {
+        "about": "Payment",
+        "cardNumber": "Card Number",
+        "expiration": "Expiration",
+        "CVC": "CVC",
+        "name": "Name of Owner",
+        "nameInput": "name lastname",
+        "addreas": "Addreas :",
+        "postalCode": "Postal code :",
+        "phoneNumber": "Phone :",
+        "button": "Edit",
+        "payNow": "Pay Now",
+        "sms": "Please enter the code sent to your phone message."
+      },
+      "orderReview": {
+        "title": "Order Successfully Processed",
+        "subtitle": "Payment Successfully Completed",
+        "info1": "Thank you for your purchase! Your order is being processed. Delivery will be made to your specified address within 7 days.",
+        "info2": "For more information, you can contact us",
+        "link": "Contact us page",
+        "info3": "Our delivery team will get in touch with you shortly for further details."
+      }
+    },
+    "coupon": {
+      "title": "Order Summary",
+      "list": {
+        "line1": " item",
+        "line2": "Sales Tax",
+        "line3": "Delivery",
+        "line4": "Total"
+      },
+      "promo": {
+        "placeholder": "Promo code",
+        "button1": "Active",
+        "button2": "Activated"
+      }
+    }
+  },
+  "contactUsPage": {
+    "title": "Contact Us",
+    "form": {
+      "title": "Chat",
+      "textarea": "Share your thoughts",
+      "button": "Send"
+    },
+    "info": {
+      "title": "Info",
+      "subtitle1": "Chat",
+      "about": {
+        "line1": "Still can’t find your answer? Ask our customer service.",
+        "line2": "Mon to Sun, 5 am to 8 pm PT"
+      },
+      "text1": {
+        "line1": "You can ask our chatbot for help - it's available 24/7.",
+        "line2": "Our customer service team is also happy to assist.",
+        "line3": "Agent chat support: Mon to Sun, 5 am to 8 pm PT"
+      },
+      "subtitle2": "Phone",
+      "text2": {
+        "line1": "1-800-982-9337",
+        "line2": "Mon to Sun, 5 am to 8 pm PT"
+      }
+    }
+  }
+}

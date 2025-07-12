@@ -1,0 +1,67 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.payment {
+  @include display(100%, auto, start, start, column);
+  padding-bottom: 10px;
+  .subtitle {
+    @include font($font2, calc($fontSize3 * 0.8), $color4);
+  }
+  .line {
+    @include display(100%, auto, $alignItem: end);
+    .input1,
+    .input2 {
+      @include display(100%, auto, space-between, start, column);
+      margin-bottom: 5px;
+    }
+    .input2 {
+      width: 49%;
+    }
+    input {
+      @include input(100%);
+    }
+    .saveData {
+      width: 248px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h4 {
+        color: rgb(55, 58, 27);
+        font-family: Hind Vadodara;
+        font-size: 14px;
+      }
+      .btn {
+        width: 31px;
+        height: 15px;
+        position: relative;
+
+        border-radius: 8.38px;
+        background: rgb(177, 177, 171);
+        div {
+          position: absolute;
+          top: 0;
+          width: 15px;
+          height: 15px;
+          border-radius: 8.38px;
+          background: rgb(91, 93, 75);
+        }
+      }
+    }
+  }
+}
+
+.sms {
+  @include display(100%, auto, $flexDirection: column);
+  .subtitle {
+    @include font($font2, $fontSize3, $color4);
+    text-align: center;
+  }
+  input {
+    @include input();
+  }
+  button {
+    margin-top: 10px;
+    @include customButton();
+  }
+}

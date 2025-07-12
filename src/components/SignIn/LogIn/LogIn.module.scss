@@ -1,0 +1,29 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.logInBox {
+  @include display(320px, auto, space-between, start, column);
+  min-height: 250px;
+  background-color: $color1;
+  padding: 10px;
+  border: 1px solid black;
+  position: relative;
+  .description {
+    @include font($font2, calc($fontSize2 * 1.2), $color4);
+  }
+  .email {
+    @include font($font1, $fontSize2, $color4);
+  }
+  .inputBox {
+    margin: 5px 0;
+    @include display(100%, 70px, space-between, start, column);
+    position: relative;
+    .input {
+      @include input(100%);
+    }
+    .error {
+      display: none;
+      @include position(12.5px, $right: 12.5px);
+    }
+  }
+}

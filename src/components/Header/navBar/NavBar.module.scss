@@ -1,0 +1,17 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.navBar {
+  @include display(250px, 50px);
+  .link {
+    @include display(auto, 50px, center, center);
+    @include font($font2, $fontSize2);
+    transition: 0.5s;
+    border-bottom: 3px solid $color1;
+    @media (hover: hover) {
+      &:hover {
+        border-color: $color3;
+      }
+    }
+  }
+}

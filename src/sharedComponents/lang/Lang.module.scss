@@ -1,0 +1,14 @@
+@import "../../styles/mixins";
+
+.lang {
+  width: 40px;
+  height: 25px;
+}
+
+.title {
+  @include font($font2, calc($fontSize2 * 1.5));
+}
+
+.selectLang {
+  @include newComponent(auto, $alignItem: start);
+}

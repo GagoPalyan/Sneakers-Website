@@ -1,0 +1,159 @@
+.burgerMenu {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.background {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background .menu {
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0;
+  width: 320px;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: white;
+  z-index: 3;
+  padding: 10px;
+}
+.background .menu .head {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.background .menu .body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.background .menu .body .shopPages {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 10px 0;
+}
+.background .menu .body .shopPages .link {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  position: relative;
+}
+.background .menu .body .shopPages .link::after, .background .menu .body .shopPages .link::before {
+  content: "";
+  width: 10px;
+  transform: rotate(45deg);
+  border: 1px solid black;
+  position: absolute;
+  top: 21px;
+  left: auto;
+  right: 15px;
+}
+.background .menu .body .shopPages .link::before {
+  transform: rotate(-45deg);
+  top: 27px;
+}
+.background .menu .body .profile {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: black;
+  padding: 5px 0;
+}
+.background .menu .body .profile a,
+.background .menu .body .profile p,
+.background .menu .body .profile button {
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: white;
+  font-weight: 400;
+  text-align: start;
+}
+.background .menu .body .profile button {
+  padding: 4px 8px 2px 8px;
+  border: 1px solid white;
+}
+.background .menu .body .pages {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+}
+.background .menu .body .pages a {
+  margin: 2px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: Agdasima;
+  font-size: clamp(0.875rem, 1.5vw, 1.2rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  padding: 5px 0;
+  border: 1px solid black;
+}
+.background .menu .languages {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+}/*# sourceMappingURL=BurgerMenu.module.css.map */

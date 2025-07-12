@@ -1,0 +1,54 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.content {
+  @include absolute(auto, $color3, 0);
+  .textBox {
+    @include display(40%, auto, $flexDirection: column);
+    .title {
+      @include font($font2, calc($fontSize0 * 1.85), $color1);
+      line-height: 0.82;
+      text-align: center;
+    }
+    .about {
+      @include font($font2, $fontSize3, $color1);
+    }
+    .buttons {
+      @include display(80%, auto, space-evenly);
+      a {
+        @include font($font2, $fontSize2, $color1);
+        @include display(auto, auto, center);
+        background-color: $color4;
+        padding: 2px 8px 0 8px;
+      }
+    }
+  }
+  .photo {
+    width: 60%;
+  }
+}
+
+@media (width <= 650px) {
+  .content {
+    flex-direction: column;
+    .textBox {
+      width: 100%;
+      padding: 20px 0;
+      .title {
+        font-size: calc($fontSize0 * 2.6);
+      }
+      .about {
+        font-size: $fontSize2;
+      }
+      .buttons {
+        width: 100%;
+        a {
+          font-size: $fontSize1;
+        }
+      }
+    }
+    .photo {
+      display: none;
+    }
+  }
+}

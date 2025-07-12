@@ -1,0 +1,25 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.userTools {
+  @include display(80px, 50px);
+  .link {
+    @include display(35px, 35px, center, center);
+    color: $color4;
+    @media (hover: hover) {
+      &:hover {
+        border-radius: 50%;
+        background-color: $color2;
+      }
+    }
+    position: relative;
+    p {
+      @include display(15px, 15px, center, center);
+      @include font($font1, calc($fontSize3 * 0.7));
+      border-radius: 50%;
+      background-color: $color2;
+      border: 1px solid $color4;
+      @include position(0, $right: 0px);
+    }
+  }
+}

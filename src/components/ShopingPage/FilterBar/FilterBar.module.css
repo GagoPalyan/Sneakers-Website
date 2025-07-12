@@ -1,0 +1,70 @@
+.mainBox {
+  width: 320px;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: fixed;
+  top: 145px;
+  left: calc(50% - 160px);
+  right: auto;
+  min-height: 40px;
+  max-height: calc(100vh - 165px);
+  background-color: white;
+  border: 1px solid black;
+}
+.mainBox .title {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: 1px solid black;
+  padding: 0 5px;
+}
+.mainBox .title p {
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.mainBox .filterBar {
+  width: 318px;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  list-style: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+}
+.mainBox .filterBar .button {
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  width: 315px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: 1px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+@media (hover: hover) {
+  .mainBox .filterBar .button:hover {
+    background-color: rgb(225, 225, 225);
+  }
+}/*# sourceMappingURL=FilterBar.module.css.map */

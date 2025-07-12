@@ -1,0 +1,399 @@
+{
+  "header": {
+    "topBar": {
+      "contactUs": "Contactez-nous",
+      "signIn": "Se connecter",
+      "logOut": "Se déconnecter"
+    },
+    "navBar": {
+      "men": "HOMMES",
+      "women": "FEMMES",
+      "adidas": "ADIDAS",
+      "nike": "NIKE"
+    }
+  },
+  "footer": "©2024 KickZZZup, Inc. Tous droits réservés",
+  "languageMenu": {
+    "title": "CHOISISSEZ VOTRE LANGUE"
+  },
+  "home": {
+    "content1": {
+      "carousel1": {
+        "title": "Rejoignez-nous",
+        "text": "Connectez-vous maintenant et obtenez vos propres baskets",
+        "button": "Se connecter"
+      },
+      "carousel2": {
+        "title": "Adidas",
+        "text": "Impossible n'est rien",
+        "button": "Achetez maintenant"
+      },
+      "carousel3": {
+        "title": "Nike",
+        "text": "Just Do It",
+        "button": "Achetez maintenant"
+      }
+    },
+    "content2": {
+      "title": "Choisissez votre côté",
+      "button": "Magasiner maintenant"
+    },
+    "content3": {
+      "text": {
+        "title1": "GRAND",
+        "title2": "DONNER",
+        "title3": "ÉVÉNEMENT",
+        "about": "JUSQU'À 50% DE RÉDUCTION SUR PRESQUE TOUT"
+      },
+      "men": "MAGASINER HOMMES",
+      "women": "MAGASINER FEMMES"
+    },
+    "content4": {
+      "title": "Meilleures ventes"
+    }
+  },
+  "signIn": {
+    "step1": {
+      "description": "Entrez votre e-mail pour nous rejoindre ou vous connecter.",
+      "about": "Obtenez la livraison gratuite, des bons de réduction et des produits réservés aux membres lorsque vous êtes chez KickZZZup.",
+      "placeholder": "Adresse e-mail*",
+      "rememberMe": "Rester connecté. S'applique à toutes les options.",
+      "byContinue1": "En continuant, je accepte les",
+      "byContinue2": "et ",
+      "link1": "Politique de confidentialité",
+      "link2": "Conditions d'utilisation",
+      "button": "CONTINUER"
+    },
+    "signUp": {
+      "description": "Maintenant, créons votre compte KickZZZup.",
+      "namePlaceholder": "Prénom*",
+      "lastnamePlaceholder": "Nom de famille*",
+      "passwordPlaceholder": "Mot de passe*",
+      "checkBox1": "J'ai plus de 16 ans. *",
+      "checkBox2": {
+        "byContinue1": "J'accepte les ",
+        "byContinue2": " et ",
+        "link1": "Politique de confidentialité",
+        "link2": "Conditions d'utilisation."
+      },
+      "button": "S'INSCRIRE"
+    },
+    "logIn": {
+      "description": "Content de vous revoir.",
+      "button": "SE CONNECTER",
+      "tryAgain": "Mot de passe incorrect. Essayez à nouveau!"
+    }
+  },
+  "security": {
+    "privacyPolicy": {
+      "title": "POLITIQUE DE CONFIDENTIALITÉ ET DE COOKIES DE KICKZZZUP",
+      "about1": "Cette politique de confidentialité décrit les données personnelles collectées ou générées (traitées) lorsque vous interagissez avec KickZZZUP via nos sites Web, expériences numériques, applications mobiles, magasins, événements ou l'un de nos autres produits ou services, tous faisant partie de la plateforme KickZZZUP (« Plateforme »). Elle explique également comment vos données personnelles sont utilisées, partagées et protégées, quelles options vous avez concernant vos données personnelles, et comment vous pouvez nous contacter.",
+      "capture1": "QUI EST RESPONSABLE DU TRAITEMENT DE VOS DONNÉES PERSONNELLES ?",
+      "list1": {
+        "1": "L'entité KickZZZUP responsable du traitement de vos données personnelles dépend de la manière dont vous interagissez avec la Plateforme KickZZZUP et de votre localisation géographique.",
+        "2": "L'entité KickZZZUP concernée est désignée par « KickZZZUP », « notre », « nous » ou « nous » dans cette politique de confidentialité.",
+        "3": "Veuillez consulter notre Liste des entités locales pour connaître le nom de l'entité KickZZZUP responsable et les coordonnées appropriées."
+      },
+      "about2": "QUELLES DONNÉES PERSONNELLES COLLECTONS-NOUS ET QUAND ?",
+      "capture2": "Nous vous demandons certaines données personnelles afin de vous fournir les produits ou services que vous demandez, y compris :",
+      "list2": {
+        "1": "Coordonnées : nom, e-mail, numéro de téléphone, adresse de livraison et de facturation",
+        "2": "Informations de connexion et de compte : pseudo, mot de passe, identifiant utilisateur unique",
+        "3": "Détails personnels : sexe, ville d'origine, date de naissance, historique des achats",
+        "4": "Informations de paiement ou de carte de crédit",
+        "5": "Images, photos et vidéos",
+        "6": "Données sur les caractéristiques physiques : poids, taille, mensurations",
+        "7": "Données d'activité physique : heure, durée, distance, emplacement, nombre de calories, rythme/allure",
+        "8": "Préférences personnelles : liste de souhaits, préférences de marketing et de cookies"
+      },
+      "capture3": "Nous collectons des données personnelles supplémentaires pour des fonctionnalités spécifiques, y compris :",
+      "list3": {
+        "1": "Données de mouvement provenant de l'accéléromètre de votre appareil",
+        "2": "Photos, audio, contacts et informations de calendrier",
+        "3": "Données de capteur : fréquence cardiaque et données GPS",
+        "4": "Informations sur les réseaux sociaux : identifiants et publications publiques"
+      },
+      "capture4": "Données collectées automatiquement comprennent :",
+      "list4": {
+        "1": "Identifiants d'appareil et type, état des appels, accès au réseau, informations de stockage et de batterie",
+        "2": "Données de trafic : produits consultés, interactions avec le panier, statut de connexion",
+        "3": "Cookies, adresses IP, données de navigateur, balises Web et interactions avec notre Plateforme"
+      },
+      "capture5": "ENFANTS",
+      "list5": {
+        "1": "Nous respectons les lois locales et n'autorisons pas les enfants à s'inscrire sur notre Plateforme lorsqu'ils sont en dessous de l'âge légal de leur pays de résidence.",
+        "2": "Nous demanderons le consentement des parents pour les enfants participant aux expériences et événements KickZZZUP."
+      },
+      "capture6": "OUTILS DE GESTION DES DONNÉES PERSONNELLES QUE NOUS COLLECTONS",
+      "list6": {
+        "1": "Nous vous fournissons un avis ou obtenons votre consentement pour certaines pratiques.",
+        "2": "Votre navigateur Web ou votre plateforme mobile peut offrir des outils pour gérer l'utilisation des cookies ou le partage de la localisation.",
+        "3": "Nous vous encourageons à vous familiariser avec ces outils."
+      },
+      "capture7": "POURQUOI ET COMMENT UTILISONS-NOUS VOS DONNÉES PERSONNELLES ?",
+      "list7": {
+        "1": "Pour fournir les produits ou services demandés.",
+        "2": "Pour communiquer sur nos produits, services, événements et promotions.",
+        "3": "Pour envoyer des communications marketing, sous réserve de votre consentement.",
+        "4": "Pour personnaliser les communications en fonction de vos interactions.",
+        "5": "Pour gérer, améliorer et maintenir notre activité et nos services.",
+        "6": "Pour protéger nos droits, biens ou sécurité.",
+        "7": "À des fins de recherche et d'analyse générale."
+      },
+      "capture8": "Utilisation (traitement) des informations d'entraînement",
+      "list8": {
+        "1": "KickZZZUP collecte des données sur votre activité physique et vos caractéristiques physiques.",
+        "2": "Nous prenons des mesures appropriées pour protéger ces données sensibles et obtenir le consentement lorsque nécessaire."
+      },
+      "capture9": "Lien de compte",
+      "list9": {
+        "1": "Si vous liez votre compte KickZZZUP à un compte partenaire, nous obtiendrons votre consentement.",
+        "2": "Nous utilisons des données personnelles pour personnaliser votre expérience et vous envoyer des communications marketing personnalisées."
+      }
+    },
+    "termsOfUse": {
+      "title": "CONDITIONS D'UTILISATION",
+      "subtitle1": "INFORMATIONS SUR LES REMBOURSEMENTS",
+      "capture1": "Les remboursements seront effectués en fonction du mode de paiement d'origine. Si vous avez payé par virement bancaire, vous devez fournir ces informations au service client lorsque vous initiez le retour, afin que nous puissions rembourser directement sur votre compte.",
+      "subtitle2": "CONDITIONS APPLICABLES AUX PRODUITS EN PRÉ-COMMANDE",
+      "capture2": "La pré-commande est le processus qui vous permet de commander un produit avant la date de lancement prévue. En raison de la nature de la pré-commande, les conditions suivantes s'appliquent aux produits pré-commandés :",
+      "list1": {
+        "title1": "Livraison.",
+        "text1": "Les produits pré-commandés sont livrés avant la date de lancement prévue, à condition que nous ayons reçu votre paiement au moins 3 jours ouvrables avant cette date."
+      },
+      "subtitle3": "ÉVÉNEMENTS EN DEHORS DE NOTRE CONTRÔLE",
+      "capture3": "Un événement en dehors de notre contrôle est un acte ou un événement qui dépasse notre contrôle raisonnable, y compris, sans s'y limiter, les grèves, les émeutes, les attaques terroristes, la guerre, les catastrophes naturelles et la panne de réseaux publics ou privés de télécommunications."
+    },
+    "cookiePolicy": {
+      "title": "Politique de Cookies de Kickzzzup",
+      "text1": "Cette Politique de Cookies explique comment Kickzzzup ('nous', 'notre', 'nos') utilise les cookies et technologies similaires sur notre site web, kickzzzup.com ('Site Web'). En utilisant notre Site Web, vous acceptez l'utilisation des cookies conformément à cette politique.",
+      "caption1": "1. Qu'est-ce que les Cookies ?",
+      "text2": "Les cookies sont de petits fichiers texte qui sont placés sur votre appareil lorsque vous visitez un site web. Ces fichiers aident le site à se souvenir de vos actions et préférences au fil du temps, permettant une expérience plus personnalisée et améliorant la fonctionnalité du site.",
+      "caption2": "2. Types de Cookies que Nous Utilisons",
+      "text3": "Nous utilisons les types de cookies suivants sur notre Site Web :",
+      "text4": "Cookies Essentiels : Ces cookies sont nécessaires au fonctionnement de notre Site Web. Ils permettent les fonctionnalités de base telles que la sécurité, la gestion du réseau et l'accessibilité.",
+      "text5": "Cookies de Performance : Ces cookies collectent des informations sur la façon dont les visiteurs utilisent notre Site Web, comme les pages les plus fréquemment visitées. Ces cookies nous aident à améliorer la performance du Site Web en analysant les schémas de trafic et le comportement des utilisateurs.",
+      "text6": "Cookies de Fonctionnalité : Ces cookies permettent à notre Site Web de se souvenir des choix que vous faites (comme les préférences linguistiques ou les détails de connexion) et de fournir des fonctionnalités améliorées et plus personnalisées.",
+      "text7": "Cookies de Ciblage/Publicité : Ces cookies sont utilisés pour diffuser des annonces pertinentes pour vous. Ils sont également utilisés pour suivre l'efficacité de nos campagnes publicitaires.",
+      "text8": "Cookies de Tiers : Ces cookies sont définis par des services tiers, tels que des plateformes de médias sociaux (par exemple, Facebook, Instagram) ou des réseaux publicitaires. Ces cookies peuvent suivre vos habitudes de navigation sur plusieurs sites web.",
+      "caption3": "3. Comment Nous Utilisons les Cookies",
+      "text9": "Nous utilisons des cookies pour les finalités suivantes :",
+      "text10": "Améliorer la fonctionnalité de notre Site Web et enrichir l'expérience utilisateur.",
+      "text11": "Analyser le trafic du site et le comportement des utilisateurs pour optimiser notre Site Web.",
+      "text12": "Fournir un contenu et des publicités personnalisés en fonction de vos intérêts et préférences.",
+      "text13": "Se souvenir de vos préférences et informations de connexion.",
+      "text14": "Activer des fonctionnalités de médias sociaux, telles que les boutons de partage et le contenu interactif.",
+      "caption4": "4. Gestion des Cookies",
+      "text15": "Vous avez la possibilité de contrôler les cookies via les paramètres de votre navigateur. La plupart des navigateurs vous permettent de bloquer ou de supprimer les cookies, mais veuillez noter que si vous choisissez de bloquer ou de supprimer certains cookies, cela peut affecter la fonctionnalité de notre Site Web.",
+      "text16": "Vous pouvez gérer vos préférences de cookies via les paramètres de votre navigateur :",
+      "text17": "Google Chrome : Allez dans 'Paramètres' > 'Confidentialité et sécurité' > 'Cookies et autres données de site'.",
+      "text18": "Mozilla Firefox : Allez dans 'Options' > 'Confidentialité & Sécurité' > 'Cookies et données de site'.",
+      "text19": "Microsoft Edge : Allez dans 'Paramètres' > 'Cookies et autorisations de site'.",
+      "text20": "Safari : Allez dans 'Préférences' > 'Confidentialité' > 'Cookies et données de site web'.",
+      "text21": "De plus, vous pouvez utiliser des outils en ligne tels que l'Alliance Européenne pour la Publicité Interactive Numérique (EDAA) pour gérer vos préférences en matière de cookies publicitaires.",
+      "caption5": "5. Consentement",
+      "text22": "En utilisant notre Site Web, vous consentez à l'utilisation des cookies comme décrit dans cette Politique de Cookies. Si vous n'êtes pas d'accord avec l'utilisation des cookies, vous devez ajuster les paramètres de votre navigateur ou vous abstenir d'utiliser notre Site Web.",
+      "caption6": "6. Modifications de cette Politique de Cookies",
+      "text23": "Nous pouvons mettre à jour notre Politique de Cookies de temps en temps pour refléter des changements dans nos pratiques ou pour d'autres raisons opérationnelles, légales ou réglementaires. Toute mise à jour sera publiée sur cette page, et la date de la dernière révision sera indiquée en haut de la page.",
+      "caption7": "7. Contactez-Nous",
+      "text24": "Si vous avez des questions ou des préoccupations concernant notre utilisation des cookies ou cette Politique de Cookies, veuillez nous contacter à :",
+      "text25": "Support Client Kickzzzup",
+      "text26": "Email : support@kickzzzup.com"
+    },
+    "exchangePolicy": {
+      "title": "Politique de Retour et d'Échange",
+      "about": "Chez Kickzzzup, nous souhaitons que vous soyez entièrement satisfait de votre achat. Si ce n'est pas le cas, nous proposons une politique de retour et d'échange simple :",
+      "caption1": "Délai de Retour",
+      "text1": "Vous pouvez retourner votre ou vos articles dans un délai de 30 jours à compter de la date de réception pour un remboursement complet ou un échange.",
+      "text2": "Pour initier un retour ou un échange, veuillez contacter notre service client à returns@kickzzzup.com.",
+      "caption2": "Conditions de Retour",
+      "text3": "Les articles doivent être non utilisés, non portés et en état d'origine avec toutes les étiquettes et emballages intacts.",
+      "text4": "Chaussures : Nous vous recommandons d'essayer vos chaussures à l'intérieur pour éviter tout dommage aux semelles ou marques. Tout signe d'usure ou d'utilisation pourrait entraîner le refus de votre retour.",
+      "text5": "Articles non retournables : Les articles marqués comme 'vente finale' ou achetés pendant des périodes promotionnelles peuvent ne pas être éligibles pour un retour ou un échange. Cela sera clairement indiqué lors de la commande.",
+      "caption3": "Processus de Retour",
+      "text6": "Pour retourner un article, veuillez contacter notre service client pour obtenir un numéro RMA (Autorisation de Retour de Marchandise) et l'adresse de retour.",
+      "text7": "Le client est responsable des frais d'expédition pour le retour, sauf si l'article est défectueux ou incorrect.",
+      "text8": "Nous vous recommandons d'utiliser une méthode d'expédition avec suivi pour les retours, car nous ne sommes pas responsables des colis de retour perdus.",
+      "caption4": "Remboursements",
+      "text9": "Une fois que nous aurons reçu l'article retourné, nous l'inspecterons et traiterons votre remboursement dans un délai de 7 jours ouvrables.",
+      "text10": "Les remboursements seront effectués selon le mode de paiement initial. Veuillez noter que les frais d'expédition ne sont pas remboursables, sauf si l'article était défectueux ou incorrect.",
+      "caption5": "Échanges",
+      "text11": "Si vous avez besoin d'une taille ou d'un style différent, vous pouvez échanger votre article dans un délai de 30 jours à compter de la date d'achat.",
+      "text12": "Si l'article que vous souhaitez échanger n'est plus en stock, nous vous proposerons un remboursement ou un crédit en magasin pour la valeur de l'article.",
+      "caption6": "Articles Endommagés ou Défectueux",
+      "text13": "Si vous recevez un article endommagé ou défectueux, veuillez nous contacter immédiatement à returns@kickzzzup.com avec des photos des dommages. Nous vous fournirons un remplacement ou un remboursement complet."
+    },
+    "deliveryPolicy": {
+      "title": "Politique de Livraison",
+      "about": "Chez Kickzzzup, nous nous efforçons d'offrir à nos clients une expérience d'achat fluide, y compris une livraison rapide et fiable. Voici notre politique de livraison :",
+      "caption1": "Délai de Livraison",
+      "text1": "Les commandes sont traitées et expédiées sous 1 à 3 jours ouvrables après la confirmation du paiement.",
+      "text2": "Le délai de livraison dépend de votre localisation et de la méthode d'expédition sélectionnée. En général, il faut compter entre 3 et 10 jours ouvrables pour recevoir votre commande.",
+      "text3": "Les livraisons internationales peuvent prendre jusqu'à 15 jours ouvrables, selon la destination.",
+      "caption2": "Frais de Livraison",
+      "text4": "Livraison nationale : Nous offrons la livraison gratuite pour les commandes supérieures à 50 $. Pour les commandes inférieures à 50 $, les frais de livraison standard sont de 5,99 $.",
+      "text5": "Livraison internationale : Les frais de livraison internationale sont calculés en fonction du pays de destination et du poids de la commande. Vous serez informé du coût exact de la livraison lors du passage à la caisse.",
+      "caption3": "Méthodes de Livraison",
+      "text6": "Nous utilisons des transporteurs de confiance tels que FedEx, UPS et DHL pour toutes les livraisons.",
+      "text7": "Vous recevrez un numéro de suivi une fois votre commande expédiée, vous permettant de suivre votre colis en ligne.",
+      "caption4": "Restrictions de Livraison",
+      "text8": "Actuellement, nous livrons dans la plupart des pays du monde, mais sachez que certains pays peuvent avoir des restrictions ou des frais de douane supplémentaires.",
+      "caption5": "Colis Non Livrés",
+      "text9": "Si votre colis n'est pas livré en raison de détails d'adresse incorrects ou si le colis n'est pas réclamé, veuillez contacter notre équipe d'assistance dans les 30 jours pour obtenir de l'aide.",
+      "text10": "Nous ne sommes pas responsables des colis perdus ou retardés si l'adresse fournie est incorrecte ou incomplète."
+    },
+    "termsOfSale": {
+      "title": "Conditions de Vente",
+      "about": "Ces Conditions de Vente ('Conditions') régissent la vente de produits ('Produits') via le site kickzzzup.com ('Site'). En passant une commande chez nous, vous acceptez d'être lié par ces Conditions. Veuillez les lire attentivement avant de faire un achat.",
+      "caption1": "Commandes et Acceptation",
+      "text1": "Processus de commande : En passant une commande sur notre Site, vous faites une offre pour acheter les Produits que vous avez sélectionnés. Une fois votre commande passée, vous recevrez un email de confirmation contenant les détails des Produits achetés.",
+      "text2": "Acceptation de commande : Un contrat entre vous et Kickzzzup est formé lorsque nous acceptons votre commande en expédiant les Produits. Nous nous réservons le droit de refuser ou d'annuler toute commande pour des raisons incluant, mais sans s'y limiter, la disponibilité des produits, des erreurs dans les prix ou la description des produits, ou une suspicion d'activité frauduleuse.",
+      "caption2": "Disponibilité des Produits",
+      "text3": "Disponibilité des stocks : Toutes les commandes sont soumises à disponibilité. En cas de rupture de stock ou d'indisponibilité d'un Produit, nous vous en informerons et proposerons une solution alternative, telle qu'une commande différée, un remplacement ou un remboursement.",
+      "text4": "Descriptions des produits : Nous nous efforçons de fournir des informations exactes et à jour sur les Produits listés sur notre Site, y compris les descriptions, les prix et les images. Cependant, nous ne pouvons garantir que toutes les informations sont exemptes d'erreurs et nous nous réservons le droit de corriger toute inexactitude.",
+      "caption3": "Prix et Paiement",
+      "text5": "Prix : Tous les prix affichés sur notre Site sont indiqués en USD (ou devise locale) et incluent les taxes applicables sauf indication contraire. Les frais de livraison ne sont pas inclus dans le prix des Produits et seront ajoutés lors du paiement.",
+      "text6": "Paiement : Nous acceptons les paiements par carte de crédit/débit (Visa, MasterCard, American Express), PayPal et autres méthodes de paiement disponibles lors du passage à la caisse. Les paiements doivent être effectués en totalité au moment de l'achat. En soumettant une commande, vous nous autorisez à débiter le mode de paiement que vous avez sélectionné.",
+      "text7": "Devise : Si vous achetez depuis un pays en dehors des États-Unis, les prix seront affichés dans votre devise locale, mais la transaction finale sera effectuée en USD ou dans la devise applicable à votre mode de paiement.",
+      "caption4": "Livraison et Expédition",
+      "text8": "Frais de Livraison : Les frais de livraison sont calculés lors du passage à la caisse en fonction de votre adresse de livraison et de la méthode d'expédition choisie. Nous proposons des livraisons nationales et internationales avec diverses options (standard, accélérée, express).",
+      "text9": "Délais de Livraison : Les délais de livraison estimés sont fournis lors du passage à la caisse. Cependant, ces délais sont approximatifs et peuvent varier en fonction de votre localisation, de la méthode d'expédition et d'autres facteurs. Kickzzzup n'est pas responsable des retards causés par le transporteur ou les douanes.",
+      "text10": "Exactitude de l'Adresse : Il est de votre responsabilité de fournir des informations d'expédition exactes et complètes. Nous ne sommes pas responsables des retards ou des problèmes causés par des détails d'adresse incorrects ou incomplets.",
+      "caption5": "Retours et Échanges",
+      "text11": "Politique de Retour : Nous proposons une politique de retour de 30 jours pour la plupart des Produits. Si vous n'êtes pas entièrement satisfait de votre achat, vous pouvez retourner l'article pour un remboursement ou un échange. L'article doit être inutilisé, non porté et en parfait état, avec tous les emballages d'origine.",
+      "text12": "Processus de Retour : Pour initier un retour, contactez notre service client à returns@kickzzzup.com pour obtenir des instructions. Les frais de retour sont à la charge du client, sauf si le produit est défectueux ou si une erreur a été commise de notre part.",
+      "text13": "Remboursements : Une fois que nous recevons et inspectons l'article retourné, nous traiterons votre remboursement sous 7 jours ouvrables. Les remboursements seront effectués sur le mode de paiement initial, à l'exclusion des frais de livraison initiaux (sauf si le produit était défectueux ou incorrect).",
+      "text14": "Échanges : Si vous souhaitez échanger un article pour une taille ou un style différent, vous pouvez le faire dans un délai de 30 jours suivant l'achat, sous réserve de disponibilité. Si le produit de remplacement n'est pas disponible, un remboursement sera émis.",
+      "caption6": "Garantie des Produits",
+      "text15": "Garantie : Nos Produits peuvent être couverts par une garantie du fabricant pour une période spécifique. Toute information sur la garantie sera fournie avec le Produit. En cas de défaut, veuillez nous contacter immédiatement, et nous vous assisterons dans le processus de réclamation sous garantie.",
+      "text16": "Exclusions : La garantie ne couvre pas les dommages causés par une mauvaise utilisation, des accidents ou l'usure normale.",
+      "caption7": "Limitation de Responsabilité",
+      "text17": "Responsabilité : Kickzzzup ne peut être tenu responsable des dommages indirects, accidentels ou consécutifs résultant de l'utilisation ou de l'incapacité à utiliser les Produits. Notre responsabilité se limite au prix payé pour le(s) Produit(s) acheté(s).",
+      "caption8": "Confidentialité et Protection des Données",
+      "text18": "Confidentialité : Votre utilisation de notre Site et votre achat de Produits sont régis par notre Politique de Confidentialité, qui explique comment nous collectons, utilisons et protégeons vos informations personnelles.",
+      "text19": "Protection des Données : Nous prenons la sécurité des données au sérieux et respectons les lois applicables en matière de protection des données, y compris le Règlement Général sur la Protection des Données (RGPD) pour les clients européens.",
+      "caption9": "Modifications de ces Conditions",
+      "text20": "Nous nous réservons le droit de modifier ou de mettre à jour ces Conditions à tout moment. Toute modification sera publiée sur cette page, et les Conditions mises à jour s'appliqueront à toutes les commandes passées ultérieurement sur le Site.",
+      "caption10": "Loi Applicable et Résolution des Litiges",
+      "text21": "Loi Applicable : Ces Conditions de Vente sont régies par les lois de la juridiction où Kickzzzup est basé.",
+      "text22": "Résolution des Litiges : Tout litige découlant de ces Conditions ou de votre achat de Produits sera résolu par arbitrage contraignant, sauf si la loi en dispose autrement.",
+      "caption11": "Contactez-nous",
+      "text23": "Si vous avez des questions concernant ces Conditions ou votre commande, veuillez contacter notre équipe de support client à :",
+      "text24": "Service Client Kickzzzup",
+      "text25": "Email : support@kickzzzup.com"
+    }
+  },
+  "404": {
+    "text": "404 Page non trouvée",
+    "button": "Aller à la page d'accueil"
+  },
+  "sneakersPage": {
+    "about": {
+      "title1": "Guide des tailles",
+      "title2": "Avis"
+    },
+    "colors": "Toutes les couleurs",
+    "filter": "Filtrer et trier",
+    "size": "Sélectionnez la taille",
+    "addCart": "Ajouter au panier",
+    "removeCart": "Retirer du panier",
+    "addFavorite": "Ajouter aux favoris",
+    "removeFavorite": "Retirer des favoris",
+    "more": "Plus"
+  },
+  "cartPage": {
+    "title": "Page du panier",
+    "empty": {
+      "text": "Le panier est vide",
+      "button": "Retourner"
+    },
+    "price": "Prix total : $",
+    "button": "Passer à la caisse"
+  },
+  "favoritePage": {
+    "title": "Page des favoris",
+    "empty": "La liste des produits préférés est vide",
+    "cartProduct": {
+      "more": "Voir plus de détails",
+      "remove": "Retirer l'article",
+      "size": "Taille "
+    }
+  },
+  "checkoutPage": {
+    "title": "Caisse",
+    "chapter": {
+      "deliveryOptions": {
+        "about": "Options de livraison",
+        "email": "Adresse e-mail*",
+        "name": "Prénom*",
+        "lastName": "Nom*",
+        "country": "Choisissez votre pays",
+        "addreas": "Adresse*",
+        "city": "Ville*",
+        "postalCode": "Code postal*",
+        "phoneNumber": "Numéro de téléphone*",
+        "button": "Enregistrer et continuer",
+        "link1": "Politique de confidentialité,",
+        "link2": "Conditions d'utilisation",
+        "link3": "Politique de cookies,",
+        "link4": "Politique de retour et d'échange,",
+        "link5": "Politique de livraison",
+        "link6": "Conditions de vente pour Kickzzzup"
+      },
+      "payment": {
+        "about": "Paiement",
+        "cardNumber": "Numéro de carte",
+        "expiration": "Expiration",
+        "CVC": "CVC",
+        "name": "Nom du titulaire",
+        "nameInput": "nom prénom",
+        "addreas": "Adresse :",
+        "postalCode": "Code postal :",
+        "phoneNumber": "Téléphone :",
+        "button": "Modifier",
+        "payNow": "Payer maintenant"
+      },
+      "orderReview": "Révision de la commande"
+    },
+    "coupon": {
+      "title": "Résumé de la commande",
+      "list": {
+        "line1": "article",
+        "line2": "Taxe de vente",
+        "line3": "Livraison",
+        "line4": "Total"
+      },
+      "promo": {
+        "placeholder": "Code promo",
+        "button1": "Actif",
+        "button2": "Activé"
+      }
+    }
+  },
+  "contactUsPage": {
+    "title": "Contactez-nous",
+    "form": {
+      "title": "Chat",
+      "textarea": "Partagez vos réflexions",
+      "button": "Envoyer"
+    },
+    "info": {
+      "title": "Infos",
+      "subtitle1": "Chat",
+      "about": {
+        "line1": "Vous ne trouvez toujours pas votre réponse ? Demandez à notre service client.",
+        "line2": "Du lundi au dimanche, de 5 h à 20 h PT"
+      },
+      "text1": {
+        "line1": "Vous pouvez demander de l'aide à notre chatbot - il est disponible 24h/24 et 7j/7.",
+        "line2": "Notre équipe du service client est également heureuse de vous aider.",
+        "line3": "Support chat avec un agent : du lundi au dimanche, de 5 h à 20 h PT"
+      },
+      "subtitle2": "Téléphone",
+      "text2": {
+        "line1": "1-800-982-9337",
+        "line2": "Du lundi au dimanche, de 5 h à 20 h PT"
+      }
+    }
+  }
+}

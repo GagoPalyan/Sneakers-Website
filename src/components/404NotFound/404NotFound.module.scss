@@ -1,0 +1,12 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.main {
+  @include display(100%, calc(100vh - 85px), center, center, column);
+  .title {
+    @include font($font2, calc($fontSize0 * 2), $color4);
+  }
+  .about {
+    @include font($font1, $fontSize1, $color4);
+  }
+}

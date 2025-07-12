@@ -1,0 +1,18 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.content {
+  @include display(100%, auto, space-between, start, column);
+  padding: 5px;
+  margin: 5px 0;
+  border-bottom: 1px solid $color4;
+  .name {
+    @include font($font2, $fontSize2);
+  }
+  .infoText {
+    @include font($font2, $fontSize3);
+  }
+  .comment {
+    @include font($font1, $fontSize3);
+  }
+}

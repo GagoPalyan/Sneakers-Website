@@ -1,0 +1,33 @@
+.content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 5px;
+  margin: 5px 0;
+  border-bottom: 1px solid black;
+}
+.content .name {
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.content .infoText {
+  font-family: BebasNeue;
+  font-size: clamp(0.875rem, 1.5vw, 1.2rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.content .comment {
+  font-family: Agdasima;
+  font-size: clamp(0.875rem, 1.5vw, 1.2rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}/*# sourceMappingURL=ReviewCard.module.css.map */

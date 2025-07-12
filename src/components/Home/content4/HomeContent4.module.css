@@ -1,0 +1,107 @@
+.content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px 0;
+}
+.content p {
+  font-family: BebasNeue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.content .buttonBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.content .buttonBox .scrollButton {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 5px;
+  padding-bottom: 2.5px;
+}
+@media (hover: hover) {
+  .content .buttonBox .scrollButton:hover {
+    background-color: rgb(150, 150, 150);
+  }
+}
+.content .bestSellers {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  transition: all 0.5s linear;
+}
+.content .bestSellers .cart {
+  width: 260px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: white;
+}
+.content .bestSellers .cart img {
+  width: 250px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+.content .bestSellers .cart .info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 5px;
+}
+.content .bestSellers .cart .info .categoryPrice {
+  width: 75%;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.content .bestSellers .cart .info .price {
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+
+::-webkit-scrollbar {
+  height: 0;
+}/*# sourceMappingURL=HomeContent4.module.css.map */

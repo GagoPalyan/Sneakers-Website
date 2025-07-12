@@ -1,0 +1,23 @@
+.main {
+  width: 100%;
+  height: calc(100vh - 85px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.main .title {
+  font-family: BebasNeue;
+  font-size: calc(clamp(2rem, 5vw, 4rem) * 2);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.main .about {
+  font-family: Agdasima;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}/*# sourceMappingURL=404NotFound.module.css.map */

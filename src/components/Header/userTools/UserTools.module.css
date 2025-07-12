@@ -1,0 +1,47 @@
+.userTools {
+  width: 80px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.userTools .link {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: black;
+  position: relative;
+}
+@media (hover: hover) {
+  .userTools .link:hover {
+    border-radius: 50%;
+    background-color: rgb(225, 225, 225);
+  }
+}
+.userTools .link p {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: Agdasima;
+  font-size: calc(clamp(0.875rem, 1.5vw, 1.2rem) * 0.7);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  border-radius: 50%;
+  background-color: rgb(225, 225, 225);
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0px;
+}/*# sourceMappingURL=UserTools.module.css.map */

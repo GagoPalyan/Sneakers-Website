@@ -1,0 +1,17 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.cart {
+  @include display(18%, auto, center, center);
+  margin: 1%;
+  aspect-ratio: 1/1;
+  img {
+    @include display(100%, 100%, center, center);
+  }
+}
+
+@media (width <= 768px) {
+  .cart {
+    width: 23%;
+  }
+}

@@ -1,0 +1,59 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.main {
+  @include main();
+  padding-top: 10px;
+  .titleBar {
+    @include absolute(auto, $color2, 5px 10px);
+    border: 1px solid $color4;
+    background-color: $color1;
+    .search {
+      @include display(auto, auto, space-between, center);
+      svg {
+        cursor: pointer;
+      }
+      input {
+        width: 150px;
+        padding: 3px 12px;
+        border-radius: 20px;
+        cursor: default;
+        @include font($font2, 20px, $color4);
+        &:focus {
+          background-color: $color2;
+        }
+      }
+    }
+    .button {
+      @include font($font2, $fontSize2, $color4);
+      @media (hover: hover) {
+        &:hover {
+          color: $color3;
+        }
+      }
+    }
+  }
+  .content {
+    @include absolute(
+      auto,
+      $color2,
+      $alignItem: center,
+      $justifyContent: start,
+      $flexDirection: column
+    );
+    padding: 10px 0;
+    position: relative;
+    .products {
+      @include display(100%, auto, start, start, row, wrap);
+      min-width: calc(100% - 320px);
+    }
+    .more {
+      @include display(auto, auto, center, center);
+      padding: 10px 10px 5px 10px;
+      background-color: $color4;
+      @include font($font2, $fontSize1, $color1);
+      line-height: 30px;
+      margin-top: 5px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.button {
+  padding: 5px 10px 0 10px;
+  background-color: black;
+  font-family: BebasNeue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: white;
+  font-weight: 400;
+}
+@media (hover: hover) {
+  .button:hover {
+    color: rgb(150, 150, 150);
+  }
+}
+@media (width <= 768px) {
+  .button {
+    padding: 2px 5px 0 5px;
+  }
+}/*# sourceMappingURL=CustomButton.module.css.map */

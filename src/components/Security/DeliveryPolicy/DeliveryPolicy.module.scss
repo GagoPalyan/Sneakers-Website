@@ -1,0 +1,28 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.main {
+  @include main();
+  align-items: start;
+  .title {
+    @include font($font2, $fontSize0, $color4);
+  }
+  .capture {
+    margin: 5px 0;
+    @include font($font2, $fontSize2, $color4);
+  }
+  .about {
+    @include font($font2, $fontSize1, $color4);
+    margin: 5px 0;
+    font-style: italic;
+  }
+  ul li {
+    @include font($font1, $fontSize2, $color4);
+  }
+}
+
+@media (width <= 768px) {
+  .main {
+    padding: 0 5px;
+  }
+}

@@ -1,0 +1,53 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.main {
+  @include main();
+  padding-top: 10px;
+  .content {
+    @include newComponent(auto);
+    background-color: $color1;
+    .title {
+      @include font($font2, $fontSize1, $color4);
+    }
+    .contactBox {
+      @include display(100%, auto, $alignItem: start);
+      padding: 10px;
+      .boxTitle {
+        @include font($font2, $fontSize1, $color4);
+      }
+      .form {
+        @include display(49%, auto, space-between, start, column);
+        input {
+          @include input(100%);
+        }
+        textarea {
+          @include input(100%, 200px);
+          resize: none;
+          margin: 10px 0;
+        }
+      }
+      .info {
+        @include display(49%, auto, start, start, column);
+        .subTitle {
+          margin-top: 10px;
+          text-decoration: underline;
+          @include font($font2, calc($fontSize2 * 1.2), $color4);
+        }
+        .text {
+          @include font($font1, $fontSize2, $color4);
+        }
+      }
+    }
+  }
+}
+
+@media (width <= 600px) {
+  .main .content .contactBox {
+    flex-direction: column-reverse;
+    .form,
+    .info {
+      width: 100%;
+    }
+  }
+}

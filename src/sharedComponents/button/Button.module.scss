@@ -1,0 +1,20 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.button {
+  padding: 5px 10px 0 10px;
+  background-color: $color1;
+  border: 1px solid;
+  @include font($font2, $fontSize1, $color4);
+  @media (hover: hover) {
+    &:hover {
+      background-color: $color2;
+    }
+  }
+}
+
+@media (width <= 768px) {
+  .button {
+    padding: 2px 5px 0 5px;
+  }
+}

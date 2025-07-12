@@ -1,0 +1,19 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.section {
+  @include newComponent(auto);
+}
+
+.textBox {
+  @include display(305px, auto, space-between, start, column);
+  margin-left: 15px;
+  h3 {
+    @include font($font2, $fontSize1, $color1);
+    margin-bottom: 0;
+  }
+  p {
+    @include font($font1, $fontSize2, $color1);
+    margin-bottom: 0.5rem;
+  }
+}

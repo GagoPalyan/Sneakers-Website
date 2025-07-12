@@ -1,0 +1,62 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.content {
+  @include display(100%, auto, start, start, column);
+  padding: 10px 0;
+  p {
+    @include font($font2, $fontSize1);
+  }
+  .buttonBox {
+    @include display(100%, auto, end);
+    .scrollButton {
+      @include display(30px, 30px, center);
+      background-color: $color1;
+      border: 1px solid $color4;
+      margin: 0 5px;
+      padding-bottom: 2.5px;
+      @media (hover: hover) {
+        &:hover {
+          background-color: $color3;
+        }
+      }
+    }
+  }
+  .bestSellers {
+    @include display(100%, auto);
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    transition: all 0.5s linear;
+    .cart {
+      @include display(260px, auto, space-between, center, column);
+      margin: 5px;
+      padding: 5px;
+      border: 1px solid $color4;
+      background-color: $color1;
+      img {
+        width: 250px;
+        aspect-ratio: 1/1;
+        cursor: pointer;
+      }
+      .info {
+        @include display(100%, auto, space-between, center);
+        margin-top: 5px;
+        .categoryPrice {
+          width: 75%;
+          display: block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          @include font($font1, $fontSize2, $color4);
+        }
+        .price {
+          @include font($font2, $fontSize2, $color4);
+        }
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  height: 0;
+}

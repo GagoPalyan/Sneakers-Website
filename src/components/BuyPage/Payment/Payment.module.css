@@ -1,0 +1,122 @@
+.payment {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-bottom: 10px;
+}
+.payment .subtitle {
+  font-family: BebasNeue;
+  font-size: calc(clamp(0.875rem, 1.5vw, 1.2rem) * 0.8);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.payment .line {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.payment .line .input1,
+.payment .line .input2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 5px;
+}
+.payment .line .input2 {
+  width: 49%;
+}
+.payment .line input {
+  width: 100%;
+  height: 45px;
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+}
+.payment .line .saveData {
+  width: 248px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.payment .line .saveData h4 {
+  color: rgb(55, 58, 27);
+  font-family: Hind Vadodara;
+  font-size: 14px;
+}
+.payment .line .saveData .btn {
+  width: 31px;
+  height: 15px;
+  position: relative;
+  border-radius: 8.38px;
+  background: rgb(177, 177, 171);
+}
+.payment .line .saveData .btn div {
+  position: absolute;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 8.38px;
+  background: rgb(91, 93, 75);
+}
+
+.sms {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.sms .subtitle {
+  font-family: BebasNeue;
+  font-size: clamp(0.875rem, 1.5vw, 1.2rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  text-align: center;
+}
+.sms input {
+  width: 300px;
+  height: 45px;
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+}
+.sms button {
+  margin-top: 10px;
+  padding: 5px 10px 0 10px;
+  background-color: black;
+  font-family: BebasNeue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: white;
+  font-weight: 400;
+}
+@media (hover: hover) {
+  .sms button:hover {
+    color: rgb(150, 150, 150);
+  }
+}
+@media (width <= 768px) {
+  .sms button {
+    padding: 2px 5px 0 5px;
+  }
+}/*# sourceMappingURL=Payment.module.css.map */

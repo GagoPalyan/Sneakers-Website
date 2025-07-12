@@ -1,0 +1,9 @@
+@import "../../styles/mixins";
+
+.close {
+  width: 40px;
+  height: 40px;
+  border: 1px solid $color4;
+  @include display(center, center);
+  background-color: $color1;
+}

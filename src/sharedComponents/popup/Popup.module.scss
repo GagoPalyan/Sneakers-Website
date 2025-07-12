@@ -1,0 +1,12 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.background {
+  @include background();
+  .popup {
+    @include popup(400px, 350px);
+    .closeButton {
+      @include position(-20px, $right: -20px);
+    }
+  }
+}

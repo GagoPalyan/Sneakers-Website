@@ -1,0 +1,76 @@
+.cart {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+.cart img {
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+.cart .info {
+  width: calc(100% - 115px);
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.cart .info .brand {
+  font-family: Agdasima;
+  font-size: clamp(0.875rem, 1.5vw, 1.2rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.cart .info .buy {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.cart .info .buy .name {
+  font-family: BebasNeue;
+  font-size: calc(clamp(1rem, 2vw, 1.5rem) * 1.12);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.cart .info .buy .price {
+  font-family: BebasNeue;
+  font-size: calc(clamp(1rem, 2vw, 1.5rem) * 1.12);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.cart .info .aboutCart {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.cart .info .aboutCart a,
+.cart .info .aboutCart button {
+  font-family: Agdasima;
+  font-size: clamp(0.875rem, 1.5vw, 1.2rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  border: 1px solid black;
+  padding: 0 5px;
+  text-align: center;
+}/*# sourceMappingURL=CartProduct.module.css.map */

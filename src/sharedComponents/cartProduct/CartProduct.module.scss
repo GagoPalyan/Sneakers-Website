@@ -1,0 +1,39 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.cart {
+  @include display(100%, 120px, space-between, center);
+  background-color: $color1;
+  padding: 10px;
+  border: 1px solid $color4;
+  margin-bottom: 10px;
+  img {
+    height: 100%;
+    aspect-ratio: 1/1;
+  }
+  .info {
+    @include display(calc(100% - 115px), 100%, space-between, start, column);
+    .brand {
+      @include font($font1, $fontSize3, $color4);
+    }
+    .buy {
+      @include display(100%, auto, space-between, center);
+      .name {
+        @include font($font2, calc($fontSize2 * 1.12), $color4);
+      }
+      .price {
+        @include font($font2, calc($fontSize2 * 1.12), $color4);
+      }
+    }
+    .aboutCart {
+      @include display(100%, auto, space-between, center);
+      a,
+      button {
+        @include font($font1, $fontSize3, $color4);
+        border: 1px solid $color4;
+        padding: 0 5px;
+        text-align: center;
+      }
+    }
+  }
+}

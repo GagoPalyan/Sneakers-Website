@@ -1,0 +1,40 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.section {
+  @include newComponent(auto);
+  h1 {
+    @include display(100%, 100%, center, center);
+    @include font($font2, $fontSize0, $color4);
+    margin-top: 10px;
+  }
+  .chouseYourSide {
+    @include absolute(auto, $padding: 0);
+    aspect-ratio: 16/8;
+    .sides {
+      transition: 0.5s ease;
+      @include display(50%, 100%, center, end);
+      a {
+        display: none;
+      }
+      &:hover {
+        width: 200%;
+        a {
+          display: flex;
+        }
+      }
+      &:nth-child(1) {
+        background: black
+          url("https://i.pinimg.com/736x/70/ec/f5/70ecf577dd070ecd6dd2a9fcfb285a0a.jpg")
+          center no-repeat;
+        background-size: contain;
+      }
+      &:nth-child(2) {
+        background: white
+          url("https://logos-world.net/wp-content/uploads/2020/05/Nike-Logo.jpg")
+          center no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+}

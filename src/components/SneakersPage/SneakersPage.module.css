@@ -1,0 +1,238 @@
+.main {
+  width: 100%;
+  min-height: calc(100vh - 85px);
+  padding: var(--maxWidthPadding);
+  background-color: rgb(225, 225, 225);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.main .content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.main .content .imagesBox {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.main .content .imagesBox img {
+  border: 1px solid black;
+}
+.main .content .imagesBox .mainImg {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.main .content .imagesBox .imagesList {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-top: 15px;
+}
+.main .content .imagesBox .imagesList img {
+  width: 19%;
+  aspect-ratio: 1/1;
+}
+.main .sneakersInfo {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-left: 20px;
+}
+.main .sneakersInfo .name {
+  font-family: BebasNeue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.main .sneakersInfo .infoText {
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.main .sneakersInfo .sizeInfo {
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.main .sneakersInfo .size {
+  width: 100px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: calc(clamp(1.5rem, 4vw, 3rem) * 0.7);
+  border: 1px solid black;
+}
+.main .sneakersInfo .size p {
+  width: 30px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.main .sneakersInfo .buttons {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.main .sneakersInfo .buttons .add,
+.main .sneakersInfo .buttons .favorite {
+  margin: 15px 0;
+  width: 48%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: black;
+  border: 1px solid black;
+  padding: 7px 0 5px 0;
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: white;
+  font-weight: 400;
+  text-align: start;
+}
+.main .sneakersInfo .buttons .favorite {
+  background-color: white;
+  color: black;
+}
+.main .sneakersInfo .colors {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main .sneakersInfo .about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.main .sneakersInfo .about details {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border: 1px solid black;
+  margin: 5px 0;
+  padding: 5px;
+  background-color: white;
+}
+.main .sneakersInfo .about .table {
+  min-width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.main .sneakersInfo .about .table::-webkit-scrollbar {
+  height: 6px;
+}
+.main .sneakersInfo .about .table::-webkit-scrollbar-track {
+  background-color: white;
+}
+.main .sneakersInfo .about .table[open] {
+  box-shadow: -40px 0 20px -20px rgb(150, 150, 150) inset;
+}
+.main .sneakersInfo .about .table table {
+  min-width: 100%;
+  max-width: 100%;
+}
+.main .sneakersInfo .about .table table thead {
+  width: 100%;
+  height: 20px;
+}
+.main .sneakersInfo .about .table table tr {
+  width: 100%;
+  height: 20px;
+}
+.main .sneakersInfo .about .table table tr th,
+.main .sneakersInfo .about .table table tr td {
+  min-width: 65px;
+  max-width: 65px;
+  border: 2px solid black;
+  font-family: BebasNeue;
+  font-size: clamp(0.875rem, 1.5vw, 1.2rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+  text-align: center;
+}
+
+@media (width <= 768px) {
+  .main .content {
+    align-items: center;
+    flex-direction: column;
+  }
+  .main .content .imagesBox {
+    width: 98%;
+    position: inherit;
+  }
+  .main .content .sneakersInfo {
+    width: 98%;
+    padding: 20px 0;
+  }
+  .main .content .sneakersInfo .buttons {
+    justify-content: space-between;
+  }
+  .main .content .sneakersInfo .buttons .add,
+  .main .content .sneakersInfo .buttons .favorite {
+    margin-top: 15px;
+    font-size: clamp(0.875rem, 1.5vw, 1.2rem);
+    width: 49%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}/*# sourceMappingURL=SneakersPage.module.css.map */

@@ -1,0 +1,83 @@
+.cart {
+  margin: 1%;
+  transition: 0.3s;
+  width: 23%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.cart img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+.cart .info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 5px;
+}
+.cart .info .categoryPrice {
+  width: 75%;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Agdasima;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+.cart .info .price {
+  font-family: BebasNeue;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  font-weight: 400;
+  text-align: start;
+}
+@media (hover: hover) {
+  .cart:hover {
+    width: 25%;
+    margin: 0;
+  }
+  .cart:hover img {
+    border: 1px solid black;
+  }
+}
+
+@media (width <= 768px) {
+  .cart {
+    width: 31.3%;
+  }
+}
+@media (width <= 768px) and (hover: hover) {
+  .cart:hover {
+    width: 33.3%;
+    margin: 0;
+  }
+  .cart:hover img {
+    border: 1px solid black;
+  }
+}
+@media (width <= 425px) {
+  .cart {
+    width: 48%;
+  }
+}
+@media (width <= 425px) and (hover: hover) {
+  .cart:hover {
+    width: 50%;
+    margin: 0;
+  }
+  .cart:hover img {
+    border: 1px solid black;
+  }
+}/*# sourceMappingURL=Cart.module.css.map */
