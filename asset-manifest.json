@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Sneakers-Website/static/css/main.68210fab.css",
+    "main.js": "/Sneakers-Website/static/js/main.4b77de3c.js",
+    "static/js/453.3f5bda53.chunk.js": "/Sneakers-Website/static/js/453.3f5bda53.chunk.js",
+    "static/media/content3.webp": "/Sneakers-Website/static/media/content3.aacd6115007fe57f7c79.webp",
+    "static/media/б3.webp": "/Sneakers-Website/static/media/б3.861b1a07d65df4bf3417.webp",
+    "static/media/b6.webp": "/Sneakers-Website/static/media/b6.86af8c6851e859925b97.webp",
+    "static/media/BebasNeue-Regular.ttf": "/Sneakers-Website/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "static/media/b7.webp": "/Sneakers-Website/static/media/b7.c8d66ecea155835b2116.webp",
+    "static/media/а1.webp": "/Sneakers-Website/static/media/а1.df0a8dec8d831ec5cb84.webp",
+    "static/media/б2.webp": "/Sneakers-Website/static/media/б2.8628a169950e2e2bcdba.webp",
+    "static/media/b5.webp": "/Sneakers-Website/static/media/b5.815a55d1a2cfd6ad066b.webp",
+    "static/media/white.jpg": "/Sneakers-Website/static/media/white.9db3e1a3c13ef30b5ea1.jpg",
+    "static/media/b4.webp": "/Sneakers-Website/static/media/b4.5fd0ff9e570523ee7e42.webp",
+    "static/media/Agdasima-Regular.ttf": "/Sneakers-Website/static/media/Agdasima-Regular.98da01c487098ca78a1f.ttf",
+    "index.html": "/Sneakers-Website/index.html",
+    "main.68210fab.css.map": "/Sneakers-Website/static/css/main.68210fab.css.map",
+    "main.4b77de3c.js.map": "/Sneakers-Website/static/js/main.4b77de3c.js.map",
+    "453.3f5bda53.chunk.js.map": "/Sneakers-Website/static/js/453.3f5bda53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68210fab.css",
+    "static/js/main.4b77de3c.js"
+  ]
+}
