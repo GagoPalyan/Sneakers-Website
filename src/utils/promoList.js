@@ -1,1 +1,1 @@
-export const promoCode = ["kickZZZup", "nike", "freeShipping", "adidas"];
+export const promoCode = ['kickZZZup', 'nike', 'freeShipping', 'adidas'];
